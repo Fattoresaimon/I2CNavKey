@@ -1,0 +1,29 @@
+Altium Designer Pick and Place Locations
+C:\Users\scaron\SVN\I2CNavKey\HW\Project Outputs for I2CNavKey\Pick Place\Pick Place for I2CNavKey(No Pull-up).csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       05/04/19
+Time:       16:02
+Revision:   Not in VersionControl
+Variant:    No Pull-up
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description","MouserCode","PartNumber","Value"
+"*","DuppaLogo","BottomSolder","DUPPA_TOP_400x89","-80.0000","-80.0000","135","","","",""
+"SW1","TSWB-3N","TopLayer","TSWB-3N","0.0000","-0.4879","0","7 Function Tact and Scroll Wheel","","TSWB-3N-CB222 LFS",""
+"U1","PIC16F18345-I/GZZ","BottomLayer","MCHP-QFN-ML20_L","2.8000","2.2000","135","8-bit Microcontrollers - MCU 8-BIT MCU 14KB Flash 1KB RAM, 256 EEPROM","579-PIC16F18345-I/GZ","PIC16F18345-I/GZ",""
+"R7","R-EU_R0402","BottomLayer","R0402","5.1000","8.7674","180","Resistor","603-RC0402FR-0710KL","RC0402FR-0710KL","10k"
+"R6","R-EU_R0402","BottomLayer","R0402","7.0000","-4.0000","90","Resistor","603-RC0402FR-0710KL","RC0402FR-0710KL","10k"
+"R5","R-EU_R0402","BottomLayer","R0402","8.5000","-4.0000","90","Resistor","603-RC0402FR-0710KL","RC0402FR-0710KL","10k"
+"R4","R-EU_R0402","BottomLayer","R0402","7.0000","9.2500","90","Resistor","603-RC0402FR-0710KL","RC0402FR-0710KL","10k"
+"R3","R-EU_R0402","BottomLayer","R0402","0.0000","10.7000","90","Resistor","603-RC0402FR-0747RL","RC0402FR-0747RL","47r"
+"R2","R-EU_R0402","BottomLayer","R0402","-1.4000","10.7000","90","Resistor","603-RC0402FR-0747RL","RC0402FR-0747RL","47r"
+"R1","R-EU_R0402","BottomLayer","R0402","1.4000","10.7000","90","Resistor","603-RC0402FR-0747RL","RC0402FR-0747RL","47r"
+"L1","600R@100MHz","BottomLayer","L0402","7.5000","4.5000","180","Ferrite Bead","963-BK1005HS601-T","BK1005HS601-T","600R@100MHz"
+"CON1","JST XH-5 SMD","BottomLayer","S5B-XH-SM4-TB-V","-4.1711","-4.1711","315","XH 2.5 Horizontal Male Connector SMD Socket 2.54mm Plug XH Pitch","","S5B-XH-SM4-TB",""
+"C4","C-EUC0402","BottomLayer","C0402","5.1000","10.3000","360","Capacitor","81-GCM155R71E473KA5D","GCM155R71E473KA55D","47n"
+"C3","C-EUC0402","BottomLayer","C0402","5.5000","-4.0000","270","Capacitor","81-GCM155R71E473KA5D","GCM155R71E473KA55D","47n"
+"C2","C-EUC0402","BottomLayer","C0402","5.1000","4.8000","135","Capacitor","603-CC402KRX5R8BB104","GRM155R61C104KA88D","100n"
+"C1","C-EUC0603","BottomLayer","C0603","10.4000","4.5000","360","Capacitor","963-EMK107ABJ475MA-T","CC0603KRX5R7BB475","4u7"

@@ -1,0 +1,2192 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\I2CNavKey.X.production.o
+cinit CODE 0 32 32 3EC 2
+text2 CODE 0 143A 143A CC 2
+text15 CODE 0 AE4 AE4 23 2
+text16 CODE 0 B07 B07 23 2
+text17 CODE 0 1417 1417 23 2
+text20 CODE 0 9AE 9AE 52 2
+text42 CODE 0 13F4 13F4 23 2
+text45 CODE 0 3 3 1 2
+text46 CODE 0 9AB 9AB 3 2
+text47 CODE 0 B30 B30 E5 2
+text51 CODE 0 C15 C15 3EB 2
+text52 CODE 0 13D8 13D8 1C 2
+text53 CODE 0 13BC 13BC 1C 2
+text54 CODE 0 13A0 13A0 1C 2
+text55 CODE 0 1384 1384 1C 2
+text73 CODE 0 1506 1506 2FA 2
+nvBANK0 BANK0 1 5E 5E 1 1
+nvBANK1 BANK1 1 D7 D7 4 1
+cstackCOMMON COMMON 1 70 70 E 1
+cstackBANK0 BANK0 1 4A 4A 14 1
+cstackBANK1 BANK1 1 C7 C7 10 1
+stringtext1 STRCODE 0 41E 41E 578 2
+swtext10 CONST 0 A00 A00 E4 2
+intentry CODE 0 4 4 2C 2
+bssBANK0 BANK0 1 20 20 2A 1
+bssBANK1 BANK1 1 A0 A0 27 1
+swtext1 CONST 0 996 996 C 2
+swtext2 CONST 0 9A2 9A2 8 2
+swtext3 CONST 0 1044 1044 8 2
+swtext4 CONST 0 104C 104C 8 2
+swtext5 CONST 0 1054 1054 8 2
+swtext6 CONST 0 1000 1000 44 2
+swtext7 CONST 0 105C 105C 8 2
+swtext8 CONST 0 1064 1064 8 2
+swtext9 CONST 0 106C 106C 8 2
+dataBANK0 BANK0 1 5F 5F 1 1
+clrtext CODE 0 B2A B2A 6 2
+$C:\Users\scaron\AppData\Local\Temp\s1rao.o
+reset_vec CODE 0 0 0 2 2
+end_init CODE 0 30 30 2 2
+config CONFIG 0 8007 8007 4 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 60-6F 1
+RAM DB-EF 1
+RAM 120-16F 1
+RAM 1A0-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-64F 1
+BANK0 60-6F 1
+BANK1 DB-EF 1
+BANK2 120-16F 1
+BANK3 1A0-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 2-2 2
+CONST 9AA-9AA 2
+CONST 1074-1383 2
+CONST 1800-1FFF 2
+ENTRY 2-2 2
+ENTRY 9AA-9AA 2
+ENTRY 1074-1383 2
+ENTRY 1800-1FFF 2
+IDLOC 8000-8003 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+STACK 208B-23EF 1
+CODE 2-2 2
+CODE 9AA-9AA 2
+CODE 1074-1383 2
+CODE 1800-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-64F 1
+BIGRAM 2000-23EF 1
+EEDATA F000-F0FF 2
+STRCODE 2-2 2
+STRCODE 9AA-9AA 2
+STRCODE 1074-1383 2
+STRCODE 1800-1FFF 2
+STRING 2-2 2
+STRING 9AA-9AA 2
+STRING 1074-1383 2
+STRING 1800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\I2CNavKey.X.production.o
+32 cinit CODE >17499:C:\Users\scaron\AppData\Local\Temp\s1rao.
+32 cinit CODE >17502:C:\Users\scaron\AppData\Local\Temp\s1rao.
+32 cinit CODE >59:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+33 cinit CODE >17679:C:\Users\scaron\AppData\Local\Temp\s1rao.
+34 cinit CODE >17696:C:\Users\scaron\AppData\Local\Temp\s1rao.
+35 cinit CODE >17697:C:\Users\scaron\AppData\Local\Temp\s1rao.
+36 cinit CODE >17698:C:\Users\scaron\AppData\Local\Temp\s1rao.
+37 cinit CODE >17699:C:\Users\scaron\AppData\Local\Temp\s1rao.
+38 cinit CODE >17700:C:\Users\scaron\AppData\Local\Temp\s1rao.
+39 cinit CODE >17701:C:\Users\scaron\AppData\Local\Temp\s1rao.
+3C cinit CODE >17705:C:\Users\scaron\AppData\Local\Temp\s1rao.
+3D cinit CODE >17706:C:\Users\scaron\AppData\Local\Temp\s1rao.
+3E cinit CODE >17707:C:\Users\scaron\AppData\Local\Temp\s1rao.
+3F cinit CODE >17708:C:\Users\scaron\AppData\Local\Temp\s1rao.
+40 cinit CODE >17709:C:\Users\scaron\AppData\Local\Temp\s1rao.
+41 cinit CODE >17710:C:\Users\scaron\AppData\Local\Temp\s1rao.
+44 cinit CODE >17716:C:\Users\scaron\AppData\Local\Temp\s1rao.
+44 cinit CODE >17718:C:\Users\scaron\AppData\Local\Temp\s1rao.
+45 cinit CODE >17719:C:\Users\scaron\AppData\Local\Temp\s1rao.
+46 cinit CODE >17720:C:\Users\scaron\AppData\Local\Temp\s1rao.
+47 cinit CODE >80:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+47 cinit CODE >82:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+4A cinit CODE >88:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+4B cinit CODE >91:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+4C cinit CODE >99:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+53 cinit CODE >100:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+55 cinit CODE >101:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+56 cinit CODE >102:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+57 cinit CODE >103:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+58 cinit CODE >105:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+5A cinit CODE >106:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+5C cinit CODE >109:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+5F cinit CODE >111:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+60 cinit CODE >112:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+62 cinit CODE >113:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+65 cinit CODE >66:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+65 cinit CODE >67:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+67 cinit CODE >68:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+68 cinit CODE >54:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+68 cinit CODE >55:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+6A cinit CODE >56:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+6B cinit CODE >57:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+6C cinit CODE >58:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+6E cinit CODE >59:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+70 cinit CODE >60:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+74 cinit CODE >61:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+78 cinit CODE >62:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+7C cinit CODE >63:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+81 cinit CODE >64:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+82 cinit CODE >65:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+83 cinit CODE >66:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+84 cinit CODE >67:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+86 cinit CODE >68:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+88 cinit CODE >69:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+8A cinit CODE >70:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+8B cinit CODE >71:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+8C cinit CODE >72:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+8E cinit CODE >73:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+8F cinit CODE >75:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+90 cinit CODE >76:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+91 cinit CODE >77:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+92 cinit CODE >78:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+93 cinit CODE >79:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+94 cinit CODE >80:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+97 cinit CODE >81:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+98 cinit CODE >26:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+98 cinit CODE >28:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+9C cinit CODE >31:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+9F cinit CODE >32:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+A3 cinit CODE >33:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+A5 cinit CODE >34:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+A6 cinit CODE >39:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+AA cinit CODE >40:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+AE cinit CODE >42:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+B1 cinit CODE >43:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+B2 cinit CODE >45:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+B5 cinit CODE >46:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+B6 cinit CODE >49:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+B9 cinit CODE >50:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+BC cinit CODE >51:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+BD cinit CODE >50:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+BF cinit CODE >51:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+C0 cinit CODE >53:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+C1 cinit CODE >488:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+C1 cinit CODE >490:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+C5 cinit CODE >491:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+C7 cinit CODE >492:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+C9 cinit CODE >493:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+CB cinit CODE >495:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D6 cinit CODE >496:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D8 cinit CODE >502:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E0 cinit CODE >503:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E1 cinit CODE >504:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E3 cinit CODE >505:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E5 cinit CODE >506:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E6 cinit CODE >349:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E6 cinit CODE >350:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E7 cinit CODE >352:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EF cinit CODE >353:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F1 cinit CODE >354:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F2 cinit CODE >357:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+FA cinit CODE >358:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+FE cinit CODE >364:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+10B cinit CODE >365:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+10C cinit CODE >367:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+10C cinit CODE >368:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+10F cinit CODE >369:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+111 cinit CODE >370:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+113 cinit CODE >371:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+115 cinit CODE >372:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+116 cinit CODE >374:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+11A cinit CODE >378:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+11A cinit CODE >379:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+11D cinit CODE >380:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+11E cinit CODE >381:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+121 cinit CODE >382:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+123 cinit CODE >383:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+126 cinit CODE >350:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+130 cinit CODE >389:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+131 cinit CODE >443:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+131 cinit CODE >445:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+132 cinit CODE >447:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13A cinit CODE >448:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13C cinit CODE >449:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13D cinit CODE >453:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+145 cinit CODE >454:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+149 cinit CODE >460:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+156 cinit CODE >461:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+157 cinit CODE >463:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+157 cinit CODE >464:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+15A cinit CODE >465:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+15C cinit CODE >466:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+15F cinit CODE >467:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+161 cinit CODE >468:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+162 cinit CODE >470:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+166 cinit CODE >474:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+166 cinit CODE >475:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+169 cinit CODE >477:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+16A cinit CODE >478:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+16D cinit CODE >479:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+16F cinit CODE >480:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+172 cinit CODE >445:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+17D cinit CODE >486:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+17E cinit CODE >394:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+17E cinit CODE >396:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+17F cinit CODE >398:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+187 cinit CODE >399:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+189 cinit CODE >400:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+18A cinit CODE >404:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+192 cinit CODE >405:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+196 cinit CODE >411:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1A3 cinit CODE >412:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1A4 cinit CODE >414:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1A4 cinit CODE >415:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1A7 cinit CODE >416:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1A9 cinit CODE >417:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1AC cinit CODE >418:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1AE cinit CODE >419:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1AF cinit CODE >421:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1B3 cinit CODE >425:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1B3 cinit CODE >426:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1B6 cinit CODE >428:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1B7 cinit CODE >429:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1BA cinit CODE >430:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1BC cinit CODE >431:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1BF cinit CODE >396:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1CA cinit CODE >438:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1CB cinit CODE >110:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+1CD cinit CODE >111:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+1CF cinit CODE >112:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+1D4 cinit CODE >56:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+1D4 cinit CODE >58:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+1E2 cinit CODE >59:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+1E4 cinit CODE >61:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+1E5 cinit CODE >113:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+1E7 cinit CODE >116:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+1EF cinit CODE >119:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+1F0 cinit CODE >122:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+1F4 cinit CODE >125:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+1F6 cinit CODE >128:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+1F6 cinit CODE >130:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+1F8 cinit CODE >133:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+1FF cinit CODE >134:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+200 cinit CODE >65:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+200 cinit CODE >70:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+202 cinit CODE >73:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+204 cinit CODE >76:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+205 cinit CODE >79:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+206 cinit CODE >82:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+207 cinit CODE >84:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+208 cinit CODE >101:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+208 cinit CODE >103:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+20D cinit CODE >106:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+210 cinit CODE >107:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+214 cinit CODE >108:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+216 cinit CODE >109:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+217 cinit CODE >114:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+21B cinit CODE >115:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+21F cinit CODE >117:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+222 cinit CODE >118:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+223 cinit CODE >120:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+226 cinit CODE >121:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+227 cinit CODE >124:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+22A cinit CODE >125:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+22D cinit CODE >126:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+22E cinit CODE >125:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+230 cinit CODE >126:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+231 cinit CODE >128:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+232 cinit CODE >63:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+232 cinit CODE >65:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+237 cinit CODE >68:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+23A cinit CODE >69:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+23E cinit CODE >70:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+240 cinit CODE >71:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+241 cinit CODE >76:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+245 cinit CODE >77:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+249 cinit CODE >79:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+24C cinit CODE >80:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+24D cinit CODE >82:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+250 cinit CODE >83:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+251 cinit CODE >86:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+254 cinit CODE >87:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+257 cinit CODE >88:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+258 cinit CODE >87:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+25A cinit CODE >88:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+25B cinit CODE >90:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+25C cinit CODE >70:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+25E cinit CODE >72:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+261 cinit CODE >73:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+263 cinit CODE >76:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+264 cinit CODE >79:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+268 cinit CODE >80:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+26A cinit CODE >82:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+291 cinit CODE >83:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+2B4 cinit CODE >84:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+2B5 cinit CODE >52:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+2B7 cinit CODE >54:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+2BA cinit CODE >55:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+2BC cinit CODE >58:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+2BD cinit CODE >61:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+2C1 cinit CODE >62:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+2C3 cinit CODE >63:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+2EA cinit CODE >64:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+30D cinit CODE >65:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+30E cinit CODE >31:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+310 cinit CODE >33:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+313 cinit CODE >34:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+315 cinit CODE >37:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+316 cinit CODE >40:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+31A cinit CODE >41:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+31C cinit CODE >43:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+343 cinit CODE >44:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+366 cinit CODE >47:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+367 cinit CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+367 cinit CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+369 cinit CODE >45:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+36B cinit CODE >46:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+36F cinit CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+371 cinit CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+373 cinit CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+377 cinit CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+37B cinit CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+37C cinit CODE >141:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+37E cinit CODE >142:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+381 cinit CODE >143:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+384 cinit CODE >145:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+385 cinit CODE >133:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+387 cinit CODE >134:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+389 cinit CODE >135:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+38A cinit CODE >325:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+38A cinit CODE >328:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+391 cinit CODE >329:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+394 cinit CODE >332:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+397 cinit CODE >333:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+398 cinit CODE >334:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+39B cinit CODE >335:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+39C cinit CODE >336:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+39E cinit CODE >337:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3A0 cinit CODE >136:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3A0 cinit CODE >138:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3A8 cinit CODE >139:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3AA cinit CODE >140:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3AB cinit CODE >141:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3AF cinit CODE >146:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3B1 cinit CODE >147:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3B3 cinit CODE >148:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3B6 cinit CODE >154:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3B9 cinit CODE >155:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3BC cinit CODE >160:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3BE cinit CODE >161:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3C1 cinit CODE >166:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3C4 cinit CODE >169:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3C5 cinit CODE >167:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3C7 cinit CODE >168:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3C8 cinit CODE >169:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3CC cinit CODE >170:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3CD cinit CODE >175:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3CD cinit CODE >176:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3CE cinit CODE >175:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3D0 cinit CODE >176:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3D4 cinit CODE >177:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3D7 cinit CODE >178:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3D9 cinit CODE >179:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3DA cinit CODE >180:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3DA cinit CODE >181:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3DC cinit CODE >187:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3DE cinit CODE >188:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3E2 cinit CODE >144:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3EC cinit CODE >196:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3ED cinit CODE >102:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+3ED cinit CODE >103:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+3F4 cinit CODE >104:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+3F5 cinit CODE >233:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3F5 cinit CODE >236:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3F6 cinit CODE >239:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3F8 cinit CODE >241:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3F9 cinit CODE >240:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3FB cinit CODE >241:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+3FF cinit CODE >242:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+400 cinit CODE >247:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+403 cinit CODE >249:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+404 cinit CODE >248:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+405 cinit CODE >249:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+409 cinit CODE >250:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+40A cinit CODE >255:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+40B cinit CODE >256:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+40C cinit CODE >236:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+415 cinit CODE >258:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+416 cinit CODE >178:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+416 cinit CODE >179:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+41A cinit CODE >180:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+41B cinit CODE >93:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+41B cinit CODE >96:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+41D cinit CODE >97:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+4 intentry CODE >68:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+4 intentry CODE >52:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+6 intentry CODE >55:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+8 intentry CODE >57:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+E intentry CODE >59:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+11 intentry CODE >60:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+12 intentry CODE >61:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+18 intentry CODE >63:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+1B intentry CODE >64:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+1C intentry CODE >65:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+22 intentry CODE >67:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+25 intentry CODE >68:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+26 intentry CODE >69:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+2C intentry CODE >71:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+2E intentry CODE >82:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+1506 text73 CODE >89:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+1506 text73 CODE >91:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+1507 text73 CODE >93:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+1509 text73 CODE >94:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+150A text73 CODE >89:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+150A text73 CODE >91:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+150B text73 CODE >93:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+150D text73 CODE >94:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+150E text73 CODE >24:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+150E text73 CODE >26:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1511 text73 CODE >27:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1518 text73 CODE >31:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+151A text73 CODE >32:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+151B text73 CODE >34:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+151F text73 CODE >35:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1532 text73 CODE >36:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1537 text73 CODE >37:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+154A text73 CODE >46:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1565 text73 CODE >47:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+156A text73 CODE >48:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+157E text73 CODE >49:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1583 text73 CODE >50:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1585 text73 CODE >51:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+158D text73 CODE >53:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1595 text73 CODE >59:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1596 text73 CODE >60:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1597 text73 CODE >66:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1597 text73 CODE >68:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+159B text73 CODE >69:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+15A2 text73 CODE >72:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+15A4 text73 CODE >73:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+15A6 text73 CODE >75:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+15AA text73 CODE >77:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+15BD text73 CODE >78:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+15C2 text73 CODE >79:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+15D5 text73 CODE >88:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+15EF text73 CODE >89:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+15F4 text73 CODE >90:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1608 text73 CODE >91:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+160D text73 CODE >92:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+160F text73 CODE >93:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1617 text73 CODE >96:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+161F text73 CODE >101:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1620 text73 CODE >102:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1621 text73 CODE >102:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+1621 text73 CODE >103:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+1625 text73 CODE >104:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+1626 text73 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+1626 text73 CODE >7:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+1633 text73 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+1637 text73 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+1644 text73 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+1648 text73 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+164A text73 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+165F text73 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+1661 text73 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+1676 text73 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+1678 text73 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+1679 text73 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+1688 text73 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1688 text73 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+168C text73 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+168E text73 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+168F text73 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1690 text73 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1693 text73 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1695 text73 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1699 text73 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1699 text73 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+169B text73 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+169B text73 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+169F text73 CODE >44:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16A3 text73 CODE >46:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16A6 text73 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16A7 text73 CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16A9 text73 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16AA text73 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16AB text73 CODE >55:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16AE text73 CODE >57:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16B0 text73 CODE >59:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16B4 text73 CODE >60:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16B4 text73 CODE >62:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16B6 text73 CODE >66:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16B6 text73 CODE >68:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16BA text73 CODE >75:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16BE text73 CODE >77:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16C0 text73 CODE >78:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16C2 text73 CODE >81:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16C4 text73 CODE >82:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16C6 text73 CODE >83:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16C8 text73 CODE >84:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16CA text73 CODE >85:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16CC text73 CODE >86:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16CE text73 CODE >87:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16D0 text73 CODE >88:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16D2 text73 CODE >89:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16D4 text73 CODE >90:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16D6 text73 CODE >91:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16D8 text73 CODE >92:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16DA text73 CODE >93:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16DC text73 CODE >94:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16DE text73 CODE >95:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16E0 text73 CODE >98:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16E1 text73 CODE >100:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+16F6 text73 CODE >101:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1700 text73 CODE >102:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1704 text73 CODE >103:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1706 text73 CODE >104:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1707 text73 CODE >106:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1707 text73 CODE >109:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1709 text73 CODE >110:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+170C text73 CODE >111:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+170D text73 CODE >112:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+170D text73 CODE >113:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+170E text73 CODE >114:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+170E text73 CODE >115:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+170F text73 CODE >116:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1710 text73 CODE >118:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1714 text73 CODE >119:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1715 text73 CODE >106:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1719 text73 CODE >121:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1719 text73 CODE >124:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+171B text73 CODE >127:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+171E text73 CODE >128:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1723 text73 CODE >132:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+172B text73 CODE >134:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+172D text73 CODE >135:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+172F text73 CODE >136:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1732 text73 CODE >137:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1733 text73 CODE >138:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1733 text73 CODE >139:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1734 text73 CODE >140:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1734 text73 CODE >141:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1735 text73 CODE >142:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1736 text73 CODE >144:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+173A text73 CODE >145:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+173C text73 CODE >153:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1751 text73 CODE >154:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1772 text73 CODE >155:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1774 text73 CODE >156:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1776 text73 CODE >157:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1777 text73 CODE >158:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+177E text73 CODE >162:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1786 text73 CODE >163:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1786 text73 CODE >166:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+178F text73 CODE >167:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1794 text73 CODE >172:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1798 text73 CODE >173:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+1799 text73 CODE >174:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+179A text73 CODE >176:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+179C text73 CODE >177:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+179E text73 CODE >178:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+179F text73 CODE >179:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+179F text73 CODE >180:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17A0 text73 CODE >182:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17A2 text73 CODE >183:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17A3 text73 CODE >171:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17A5 text73 CODE >192:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17A6 text73 CODE >193:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17A8 text73 CODE >194:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17AB text73 CODE >198:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17AE text73 CODE >195:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17B0 text73 CODE >203:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17B3 text73 CODE >204:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17B9 text73 CODE >205:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17BB text73 CODE >206:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17BF text73 CODE >207:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17C0 text73 CODE >208:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17C1 text73 CODE >215:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17C6 text73 CODE >216:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17CA text73 CODE >218:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17CC text73 CODE >219:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17CD text73 CODE >225:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17CF text73 CODE >226:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17D0 text73 CODE >227:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17D1 text73 CODE >229:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17D1 text73 CODE >230:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17D2 text73 CODE >232:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17D4 text73 CODE >233:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17D5 text73 CODE >234:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17D6 text73 CODE >237:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17D7 text73 CODE >56:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+17D7 text73 CODE >58:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+17E0 text73 CODE >59:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+17E2 text73 CODE >61:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+17E3 text73 CODE >242:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17E3 text73 CODE >248:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17E5 text73 CODE >249:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+17FF text73 CODE >250:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+A00 swtext10 CONST >291:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+106C swtext9 CONST >145:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1064 swtext8 CONST >195:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+105C swtext7 CONST >245:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1384 text55 CODE >288:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1384 text55 CODE >289:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1389 text55 CODE >290:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+138C text55 CODE >291:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+138F text55 CODE >293:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1391 text55 CODE >294:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1395 text55 CODE >298:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1399 text55 CODE >299:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+139C text55 CODE >300:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+139F text55 CODE >303:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13A0 text54 CODE >308:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13A0 text54 CODE >309:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13A5 text54 CODE >310:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13A8 text54 CODE >311:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13AB text54 CODE >313:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13AD text54 CODE >314:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13B1 text54 CODE >319:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13B5 text54 CODE >320:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13B8 text54 CODE >321:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13BB text54 CODE >324:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13BC text53 CODE >329:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13BC text53 CODE >330:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13C1 text53 CODE >331:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13C4 text53 CODE >332:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13C7 text53 CODE >334:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13C9 text53 CODE >335:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13CD text53 CODE >339:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13D1 text53 CODE >340:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13D4 text53 CODE >341:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13D7 text53 CODE >344:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+13D8 text52 CODE >6:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eewrite.c
+13D9 text52 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eewrite.c
+13F3 text52 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eewrite.c
+1000 swtext6 CONST >128:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C15 text51 CODE >126:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C16 text51 CODE >128:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C17 text51 CODE >130:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C19 text51 CODE >131:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C1B text51 CODE >132:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C1D text51 CODE >133:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C1E text51 CODE >136:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C20 text51 CODE >137:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C22 text51 CODE >138:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C23 text51 CODE >141:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C25 text51 CODE >142:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C27 text51 CODE >143:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C28 text51 CODE >146:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C2A text51 CODE >147:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C2C text51 CODE >148:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C2D text51 CODE >151:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C2F text51 CODE >152:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C30 text51 CODE >155:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C32 text51 CODE >156:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C33 text51 CODE >160:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C35 text51 CODE >161:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C36 text51 CODE >163:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C38 text51 CODE >164:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C39 text51 CODE >166:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C3B text51 CODE >167:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C3C text51 CODE >169:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C3E text51 CODE >170:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C3F text51 CODE >174:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C41 text51 CODE >175:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C42 text51 CODE >177:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C44 text51 CODE >178:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C45 text51 CODE >180:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C47 text51 CODE >181:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C48 text51 CODE >183:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C4A text51 CODE >184:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C4B text51 CODE >188:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C4D text51 CODE >189:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C4E text51 CODE >191:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C50 text51 CODE >192:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C51 text51 CODE >194:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C53 text51 CODE >195:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C54 text51 CODE >197:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C56 text51 CODE >198:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C57 text51 CODE >202:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C59 text51 CODE >203:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C5A text51 CODE >205:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C5C text51 CODE >206:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C5D text51 CODE >208:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C5F text51 CODE >209:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C60 text51 CODE >211:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C62 text51 CODE >212:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C63 text51 CODE >216:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C65 text51 CODE >217:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C69 text51 CODE >218:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C6B text51 CODE >219:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C6E text51 CODE >220:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C6F text51 CODE >223:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C71 text51 CODE >224:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C75 text51 CODE >225:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C77 text51 CODE >226:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C7A text51 CODE >227:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C7B text51 CODE >230:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C7D text51 CODE >231:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C81 text51 CODE >232:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C83 text51 CODE >233:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C86 text51 CODE >234:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C87 text51 CODE >239:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C89 text51 CODE >240:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C96 text51 CODE >241:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C9D text51 CODE >242:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CA2 text51 CODE >247:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CA4 text51 CODE >248:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CA5 text51 CODE >251:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CA7 text51 CODE >252:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CAB text51 CODE >253:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CAE text51 CODE >257:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CB0 text51 CODE >258:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CB4 text51 CODE >259:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CB7 text51 CODE >263:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CB9 text51 CODE >264:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CBD text51 CODE >265:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CC0 text51 CODE >128:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CCA text51 CODE >271:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CCF text51 CODE >273:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CD2 text51 CODE >274:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CD8 text51 CODE >277:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+CDD text51 CODE >138:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+CDD text51 CODE >140:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+CDF text51 CODE >141:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+CE5 text51 CODE >142:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+CE8 text51 CODE >143:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+CEE text51 CODE >145:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+CEF text51 CODE >147:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+CF1 text51 CODE >148:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+CF3 text51 CODE >149:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+CF5 text51 CODE >150:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+CFB text51 CODE >151:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D00 text51 CODE >152:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D06 text51 CODE >153:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D08 text51 CODE >154:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D0B text51 CODE >155:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D0C text51 CODE >158:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D0E text51 CODE >159:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D10 text51 CODE >160:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D13 text51 CODE >164:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D15 text51 CODE >165:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D17 text51 CODE >168:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D19 text51 CODE >169:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D1C text51 CODE >145:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D30 text51 CODE >175:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D33 text51 CODE >178:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D36 text51 CODE >173:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D48 text51 CODE >183:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+D49 text51 CODE >70:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+D4B text51 CODE >72:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+D4E text51 CODE >73:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+D51 text51 CODE >76:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+D53 text51 CODE >79:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+D58 text51 CODE >80:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+D5A text51 CODE >82:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+D7E text51 CODE >83:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+D9F text51 CODE >84:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DA0 text51 CODE >52:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DA2 text51 CODE >54:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DA5 text51 CODE >55:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DA8 text51 CODE >58:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DAA text51 CODE >61:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DAF text51 CODE >62:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DB1 text51 CODE >63:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DD5 text51 CODE >64:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DF6 text51 CODE >65:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DF7 text51 CODE >31:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DF9 text51 CODE >33:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DFC text51 CODE >34:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+DFF text51 CODE >37:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+E01 text51 CODE >40:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+E06 text51 CODE >41:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+E08 text51 CODE >43:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+E2C text51 CODE >44:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+E4D text51 CODE >47:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+E4E text51 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+E4E text51 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+E50 text51 CODE >45:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+E52 text51 CODE >46:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+E56 text51 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+E58 text51 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+E5A text51 CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+E5E text51 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+E62 text51 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+E63 text51 CODE >64:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm1.c
+E63 text51 CODE >69:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm1.c
+E66 text51 CODE >72:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm1.c
+E68 text51 CODE >75:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm1.c
+E6A text51 CODE >78:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm1.c
+E6E text51 CODE >80:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm1.c
+E6F text51 CODE >188:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E6F text51 CODE >190:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E71 text51 CODE >191:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E77 text51 CODE >192:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E7A text51 CODE >193:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E80 text51 CODE >195:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E81 text51 CODE >197:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E83 text51 CODE >198:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E85 text51 CODE >199:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E87 text51 CODE >200:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E8D text51 CODE >201:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E92 text51 CODE >202:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E98 text51 CODE >203:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E9A text51 CODE >204:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E9D text51 CODE >205:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+E9E text51 CODE >208:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EA0 text51 CODE >209:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EA2 text51 CODE >210:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EA5 text51 CODE >214:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EA7 text51 CODE >215:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EA9 text51 CODE >219:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EAB text51 CODE >220:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EAE text51 CODE >195:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EC2 text51 CODE >226:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EC5 text51 CODE >229:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EC8 text51 CODE >224:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EDA text51 CODE >234:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EDB text51 CODE >64:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm2.c
+EDB text51 CODE >69:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm2.c
+EDE text51 CODE >72:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm2.c
+EE0 text51 CODE >75:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm2.c
+EE2 text51 CODE >78:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm2.c
+EE6 text51 CODE >80:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm2.c
+EE7 text51 CODE >239:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EE7 text51 CODE >240:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EE9 text51 CODE >241:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EEF text51 CODE >242:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EF2 text51 CODE >243:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EF8 text51 CODE >245:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EF9 text51 CODE >247:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EFB text51 CODE >248:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EFD text51 CODE >249:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+EFF text51 CODE >250:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F05 text51 CODE >251:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F0A text51 CODE >252:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F10 text51 CODE >253:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F12 text51 CODE >254:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F15 text51 CODE >255:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F16 text51 CODE >258:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F18 text51 CODE >259:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F1A text51 CODE >260:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F1D text51 CODE >264:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F1F text51 CODE >265:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F21 text51 CODE >269:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F23 text51 CODE >270:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F26 text51 CODE >245:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F3A text51 CODE >276:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F3D text51 CODE >279:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F40 text51 CODE >274:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F52 text51 CODE >283:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+F53 text51 CODE >64:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm3.c
+F53 text51 CODE >69:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm3.c
+F56 text51 CODE >72:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm3.c
+F58 text51 CODE >75:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm3.c
+F5A text51 CODE >78:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm3.c
+F5F text51 CODE >80:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm3.c
+F60 text51 CODE >449:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F60 text51 CODE >451:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F61 text51 CODE >452:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F62 text51 CODE >451:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F64 text51 CODE >452:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F69 text51 CODE >453:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F6D text51 CODE >454:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F71 text51 CODE >455:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F76 text51 CODE >456:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F77 text51 CODE >457:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F7C text51 CODE >458:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F80 text51 CODE >459:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F84 text51 CODE >460:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F89 text51 CODE >463:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F8C text51 CODE >464:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F8F text51 CODE >467:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F91 text51 CODE >468:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F93 text51 CODE >473:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F96 text51 CODE >474:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F98 text51 CODE >475:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F99 text51 CODE >476:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F9B text51 CODE >479:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F9D text51 CODE >480:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F9E text51 CODE >482:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+F9F text51 CODE >100:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+F9F text51 CODE >103:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FA1 text51 CODE >104:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FA2 text51 CODE >106:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FA3 text51 CODE >108:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FA5 text51 CODE >110:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FA7 text51 CODE >112:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FA8 text51 CODE >114:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FAA text51 CODE >116:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FAE text51 CODE >119:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FB0 text51 CODE >121:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FB2 text51 CODE >123:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FB3 text51 CODE >75:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FB3 text51 CODE >78:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FB5 text51 CODE >79:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FB6 text51 CODE >81:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FB7 text51 CODE >83:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FB9 text51 CODE >85:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FBA text51 CODE >87:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FBB text51 CODE >89:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FBD text51 CODE >91:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FC1 text51 CODE >94:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FC3 text51 CODE >96:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FC5 text51 CODE >98:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+FC6 text51 CODE >86:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+FC6 text51 CODE >88:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+FCA text51 CODE >89:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+FCE text51 CODE >90:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+FD7 text51 CODE >91:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+FE2 text51 CODE >92:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+FE9 text51 CODE >93:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+FF4 text51 CODE >94:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+FFF text51 CODE >96:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+1054 swtext5 CONST >70:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B30 text47 CODE >125:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B30 text47 CODE >132:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B31 text47 CODE >133:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B35 text47 CODE >134:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B38 text47 CODE >135:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B3B text47 CODE >137:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B3D text47 CODE >140:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B3F text47 CODE >142:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B41 text47 CODE >146:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B43 text47 CODE >148:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B46 text47 CODE >151:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B48 text47 CODE >154:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B4A text47 CODE >156:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+B4B text47 CODE >67:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B4D text47 CODE >70:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B4E text47 CODE >71:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B4E text47 CODE >73:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B51 text47 CODE >74:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B52 text47 CODE >81:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B55 text47 CODE >82:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B56 text47 CODE >86:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B5D text47 CODE >87:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B5F text47 CODE >88:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B60 text47 CODE >79:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B69 text47 CODE >92:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B6B text47 CODE >93:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B6C text47 CODE >96:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B70 text47 CODE >97:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B72 text47 CODE >98:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B73 text47 CODE >101:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B76 text47 CODE >102:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B78 text47 CODE >103:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B7A text47 CODE >104:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B7C text47 CODE >107:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B7E text47 CODE >108:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B7F text47 CODE >109:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B82 text47 CODE >70:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B8C text47 CODE >119:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B8D text47 CODE >118:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+B8D text47 CODE >119:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+B90 text47 CODE >120:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+B91 text47 CODE >66:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+B91 text47 CODE >67:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+B93 text47 CODE >68:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+B94 text47 CODE >125:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+B94 text47 CODE >126:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+B96 text47 CODE >127:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+B97 text47 CODE >288:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B98 text47 CODE >291:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B99 text47 CODE >293:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B9B text47 CODE >297:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B9D text47 CODE >301:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+B9F text47 CODE >305:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BA1 text47 CODE >309:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BA3 text47 CODE >313:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BA5 text47 CODE >317:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BA7 text47 CODE >322:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BA9 text47 CODE >323:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BAC text47 CODE >324:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BAD text47 CODE >327:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BAF text47 CODE >328:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BB2 text47 CODE >329:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BB3 text47 CODE >332:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BB5 text47 CODE >337:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BB7 text47 CODE >340:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BB9 text47 CODE >343:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BBB text47 CODE >346:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BBD text47 CODE >351:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BBF text47 CODE >354:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BC1 text47 CODE >357:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BC3 text47 CODE >360:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BC5 text47 CODE >365:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BC7 text47 CODE >368:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BC9 text47 CODE >371:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BCB text47 CODE >374:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BCD text47 CODE >379:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BCF text47 CODE >382:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BD1 text47 CODE >385:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BD3 text47 CODE >388:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BD5 text47 CODE >392:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BD7 text47 CODE >396:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BD9 text47 CODE >400:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BDB text47 CODE >404:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BDD text47 CODE >408:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BDF text47 CODE >412:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BE1 text47 CODE >416:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BE3 text47 CODE >420:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BE5 text47 CODE >424:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BE7 text47 CODE >428:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BE9 text47 CODE >429:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BEA text47 CODE >432:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BEB text47 CODE >433:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BEC text47 CODE >291:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BF6 text47 CODE >436:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BFA text47 CODE >437:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+BFE text47 CODE >438:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C01 text47 CODE >440:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C04 text47 CODE >443:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C05 text47 CODE >444:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+C06 text47 CODE >6:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeread.c
+C07 text47 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeread.c
+C09 text47 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeread.c
+C09 text47 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeread.c
+C0A text47 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeread.c
+C0D text47 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeread.c
+C14 text47 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeread.c
+9AB text46 CODE >73:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+9AB text46 CODE >74:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+9AD text46 CODE >75:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+3 text45 CODE >182:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+3 text45 CODE >185:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+13F4 text42 CODE >157:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+13F4 text42 CODE >161:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+13F5 text42 CODE >162:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+13FC text42 CODE >166:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+13FD text42 CODE >169:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+13FD text42 CODE >172:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+1402 text42 CODE >174:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+1407 text42 CODE >176:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+1408 text42 CODE >120:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+1408 text42 CODE >122:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+140B text42 CODE >125:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+140C text42 CODE >128:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+140E text42 CODE >129:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+1410 text42 CODE >132:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+1411 text42 CODE >133:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+1412 text42 CODE >137:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+1414 text42 CODE >138:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+1416 text42 CODE >140:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+104C swtext4 CONST >350:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+1044 swtext3 CONST >396:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+9A2 swtext2 CONST >445:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+9AE text20 CODE >108:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9AE text20 CODE >111:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9B4 text20 CODE >112:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9BA text20 CODE >113:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9C0 text20 CODE >114:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9C6 text20 CODE >115:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9CC text20 CODE >117:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9CD text20 CODE >118:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9D4 text20 CODE >119:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9DD text20 CODE >120:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9E2 text20 CODE >121:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9E8 text20 CODE >124:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9F2 text20 CODE >125:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9F6 text20 CODE >126:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+9FA text20 CODE >117:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+996 swtext1 CONST >144:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1417 text17 CODE >295:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1417 text17 CODE >298:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1418 text17 CODE >301:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+141A text17 CODE >303:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+141B text17 CODE >302:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+141D text17 CODE >303:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1421 text17 CODE >304:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1423 text17 CODE >309:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1426 text17 CODE >311:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1427 text17 CODE >310:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1428 text17 CODE >311:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+142C text17 CODE >312:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+142E text17 CODE >317:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+142F text17 CODE >318:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1430 text17 CODE >298:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+1439 text17 CODE >320:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B07 text16 CODE >264:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B07 text16 CODE >267:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B08 text16 CODE >270:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B0A text16 CODE >272:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B0B text16 CODE >271:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B0D text16 CODE >272:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B11 text16 CODE >273:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B13 text16 CODE >278:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B16 text16 CODE >280:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B17 text16 CODE >279:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B18 text16 CODE >280:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B1C text16 CODE >281:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B1E text16 CODE >286:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B1F text16 CODE >287:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B20 text16 CODE >267:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B29 text16 CODE >289:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AE4 text15 CODE >202:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AE4 text15 CODE >205:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AE5 text15 CODE >208:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AE7 text15 CODE >210:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AE8 text15 CODE >209:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AEA text15 CODE >210:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AEE text15 CODE >211:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AF0 text15 CODE >216:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AF3 text15 CODE >217:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AF4 text15 CODE >218:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AF9 text15 CODE >219:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AFB text15 CODE >224:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AFC text15 CODE >225:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+AFD text15 CODE >205:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+B06 text15 CODE >227:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+143A text2 CODE >50:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+143A text2 CODE >53:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+143C text2 CODE >54:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+143E text2 CODE >55:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+1440 text2 CODE >56:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+1442 text2 CODE >57:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+1444 text2 CODE >58:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+1446 text2 CODE >59:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+1448 text2 CODE >60:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+144A text2 CODE >61:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+144C text2 CODE >62:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+144D text2 CODE >58:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+144D text2 CODE >63:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+1450 text2 CODE >65:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+1452 text2 CODE >67:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+1453 text2 CODE >69:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+1454 text2 CODE >71:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+1455 text2 CODE >73:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+1457 text2 CODE >75:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+1459 text2 CODE >77:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+145A text2 CODE >79:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+145B text2 CODE >81:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+145D text2 CODE >84:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+145F text2 CODE >86:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+1461 text2 CODE >87:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+1462 text2 CODE >20:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+1462 text2 CODE >22:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+1465 text2 CODE >58:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+1467 text2 CODE >61:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+1468 text2 CODE >75:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+1468 text2 CODE >78:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+146A text2 CODE >79:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+146B text2 CODE >81:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+146C text2 CODE >83:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+146E text2 CODE >85:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+146F text2 CODE >87:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+1470 text2 CODE >89:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+1472 text2 CODE >91:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+1476 text2 CODE >94:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+1478 text2 CODE >96:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+147A text2 CODE >98:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+147B text2 CODE >66:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+147B text2 CODE >69:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+147E text2 CODE >71:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+147F text2 CODE >73:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+1480 text2 CODE >75:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+1482 text2 CODE >77:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+1483 text2 CODE >78:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+1484 text2 CODE >57:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+1484 text2 CODE >62:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+1486 text2 CODE >63:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+1487 text2 CODE >64:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+1488 text2 CODE >69:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+148B text2 CODE >70:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+148D text2 CODE >71:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+148F text2 CODE >76:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+1491 text2 CODE >77:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+1492 text2 CODE >78:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+1494 text2 CODE >83:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+1497 text2 CODE >84:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+1499 text2 CODE >85:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+149B text2 CODE >90:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+149D text2 CODE >91:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+149F text2 CODE >92:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+14A0 text2 CODE >101:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+14A5 text2 CODE >102:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+14A9 text2 CODE >103:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+14AD text2 CODE >104:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+14B1 text2 CODE >105:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+14B6 text2 CODE >106:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+14BA text2 CODE >107:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+14BB text2 CODE >86:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+14BB text2 CODE >89:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+14BE text2 CODE >91:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+14C0 text2 CODE >93:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+14C2 text2 CODE >95:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+14C4 text2 CODE >97:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+14C6 text2 CODE >99:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+14C8 text2 CODE >100:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+14C9 text2 CODE >62:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr2.c
+14C9 text2 CODE >67:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr2.c
+14CC text2 CODE >70:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr2.c
+14CD text2 CODE >73:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr2.c
+14CE text2 CODE >76:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr2.c
+14D0 text2 CODE >77:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr2.c
+14D1 text2 CODE >80:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+14D1 text2 CODE >83:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+14D4 text2 CODE >84:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+14D5 text2 CODE >58:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14D5 text2 CODE >63:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14D8 text2 CODE >65:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14D9 text2 CODE >67:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14DB text2 CODE >69:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14DC text2 CODE >71:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14DD text2 CODE >73:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14DF text2 CODE >75:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14E1 text2 CODE >77:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14E2 text2 CODE >79:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14E3 text2 CODE >81:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14E5 text2 CODE >84:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14E7 text2 CODE >86:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14E9 text2 CODE >87:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+14EA text2 CODE >64:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+14EA text2 CODE >69:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+14EC text2 CODE >72:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+14EE text2 CODE >75:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+14F0 text2 CODE >78:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+14F8 text2 CODE >81:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+14FA text2 CODE >84:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+14FC text2 CODE >87:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+1502 text2 CODE >90:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+1505 text2 CODE >91:C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+B2A clrtext CODE >17685:C:\Users\scaron\AppData\Local\Temp\s1rao.
+B2A clrtext CODE >17686:C:\Users\scaron\AppData\Local\Temp\s1rao.
+B2B clrtext CODE >17687:C:\Users\scaron\AppData\Local\Temp\s1rao.
+B2B clrtext CODE >17688:C:\Users\scaron\AppData\Local\Temp\s1rao.
+B2C clrtext CODE >17689:C:\Users\scaron\AppData\Local\Temp\s1rao.
+B2D clrtext CODE >17690:C:\Users\scaron\AppData\Local\Temp\s1rao.
+B2E clrtext CODE >17691:C:\Users\scaron\AppData\Local\Temp\s1rao.
+B2F clrtext CODE >17692:C:\Users\scaron\AppData\Local\Temp\s1rao.
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__end_of_GP_Ports_FSM 1CC 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+___latbits 2 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_ofi1_ClearInterrupt 1728 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+_I2C1_Initialize 28D0 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__end_of_CLC_1_Interrupt 2B2E 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__Hspace_0 800B 0 ABS 0 - -
+__Hspace_1 DB 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+TMR3_SetInterruptHandler@InterruptHandler C7 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+_CLC1CON F10 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC1POL F11 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC2CON F1A 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC2POL F1B 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+_StatusClear 171A 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+RegisterWrite@add 4E 0 BANK0 1 cstackBANK0 dist/default/production\I2CNavKey.X.production.o
+__end_of_PWM1_Initialize 1CDE 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+_SSP1STATbits 214 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_GeneralDataSplit 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_TMR3_SetInterruptHandler 836 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_PWM_GP1 61C 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_PWM_GP2 56A 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_PWM_GP3 4B8 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__size_ofi1_ClearInterrupt 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_NavKey_UPButton_FSM 160E 0 CODE 0 text15 dist/default/production\I2CNavKey.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+_PMD_Initialize 2976 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+_I2C1_StatusCallback 1696 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__size_of_FadeProcessSet 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_WDT_Initialize 29AA 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+ADC_GetConversion@channel CA 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+_CMAX 28 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_CMIN 24 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_CVAL 2C 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_LATA 10C 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_LATB 10D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_LATC 10E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PMD0 911 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PMD1 912 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PMD2 913 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PMD3 914 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PMD4 915 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PMD5 916 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_TMR2 1D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_WPUA 20C 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_WPUB 20D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_WPUC 20E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\scaron\AppData\Local\Temp\s1rao.o
+_main 8E 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_ADC_GetConversion 400 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+start 60 0 CODE 0 init C:\Users\scaron\AppData\Local\Temp\s1rao.o
+__size_of___fladd 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of___flsub 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_I2C1_ISR 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__CFG_DEBUG$OFF 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+?___wmul C7 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+__end_of_CLC1_Initialize 29D4 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+_I2C1_AddressSet 28C4 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__size_of_NavKey_LTButton_FSM 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__size_of_RegisterWrite 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_Int2StatusUpdate 3A8 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+__size_of_GeneralDataSet 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_TMR2_Initialize 2992 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_NavKey_DWButton_FSM 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC_1_Interrupt 2A1C 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__size_of_Int2StatusUpdate 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\scaron\AppData\Local\Temp\s1rao.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\scaron\AppData\Local\Temp\s1rao.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\scaron\AppData\Local\Temp\s1rao.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\scaron\AppData\Local\Temp\s1rao.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\scaron\AppData\Local\Temp\s1rao.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\scaron\AppData\Local\Temp\s1rao.o
+NavKeyStatusUpdate@stat C7 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+_PWM1_Initialize 1CC6 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__size_of_NavKeySwitch_KeyFilter 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_RC2PPSbits EA2 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_FadeProcessClear 70A 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_Config_GP1 19BA 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+_Config_GP2 1CDE 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+_Config_GP3 1DCE 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__end_of_DataInitSet 130 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+__end_of_PMD_Initialize 2992 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+_gp1_fsm BD 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_gp2_fsm BC 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_gp3_fsm BB 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+__size_of_TimerInt 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_FadeProcessClear 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+__end_of_RegisterWrite 19BA 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+_NavKey_FSM 714 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+___wmul@multiplicand C9 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+_C_CKSRC C4 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_C_DTYPE 39 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_C_MBANK 3B 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+__end_of_TMR3_Initialize 2A0C 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__end_of_TMR3_StartTimer 83C 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_TMR3_WriteTimer 282E 0 CODE 0 text42 dist/default/production\I2CNavKey.X.production.o
+_C_RESET C5 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_ADCON0 9D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_ADCON1 9E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_ADRESH 9C 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_ADRESL 9B 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_C_WRAPE 3A 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_ANSELA 18C 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_ANSELB 18D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_ANSELC 18E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_I2C1_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_NavKey_LTButton_FSM 282E 0 CODE 0 text17 dist/default/production\I2CNavKey.X.production.o
+_CLC1_Initialize 29AA 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+RegisterRead@return_value 72 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+_I2C1_ISR 1660 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+_CCPR1H 292 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CCPR1L 291 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CCPR2H 296 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CCPR2L 295 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CCPR3H 312 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CCPR3L 311 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_Int2StatusClear 172E 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__end_of_INTERRUPT_InterruptManager 60 0 CODE 0 intentry dist/default/production\I2CNavKey.X.production.o
+__end_of_PWM2_Initialize 1DCE 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__end_ofi1_I2C1_Initialize 1F8C 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+_TMR3_DefaultInterruptHandler 6 0 CODE 0 text45 dist/default/production\I2CNavKey.X.production.o
+_C_DIRE C2 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_C_IPUD C3 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_RC1PPSbits EA1 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of___flge 2D10 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__end_of___wmul 6F8 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_NavKey_DWButton_FSM 7EA 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_I2C1_ISR 1696 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+_EncoderReg 38 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_intclear C1 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_FADEGP 3F 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+__size_of_NavKey_RTButton_FSM 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+__end_of_I2C1_StatusCallback 171A 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+_ADC_GetConversion 3CA 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__LnvBANK0 0 0 ABS 0 nvBANK0 -
+__LnvBANK1 0 0 ABS 0 nvBANK1 -
+i1_SetInterrupt 2FAE 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+_GP1CONF 48 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_GP1_FSM 1CC 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_GP2CONF 47 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_GP2_FSM 2FC 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_GP3CONF 46 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_GP3_FSM 262 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_GP1REG 43 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_GP2REG 42 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_GP3REG 41 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+__CFG_FEXTOSC$OFF 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of___fladd 2FAE 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__end_of___flsub 3000 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+NavKey_LTButton_FSM@lt_fsm B5 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+eeprom_write@addr 71 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+__end_of_NavKeyStatusUpdate 7EA 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__size_of_I2C1_AddressSet 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+___stackhi 23EF 0 ABS 0 - C:\Users\scaron\AppData\Local\Temp\s1rao.o
+___stacklo 208B 0 ABS 0 - C:\Users\scaron\AppData\Local\Temp\s1rao.o
+__end_of_CLC2_Initialize 28C4 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+_I2C1_Initialize_ClockStreach 1F3E 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+_UpdateOut_GP1 2708 0 CODE 0 text55 dist/default/production\I2CNavKey.X.production.o
+_UpdateOut_GP2 2740 0 CODE 0 text54 dist/default/production\I2CNavKey.X.production.o
+_UpdateOut_GP3 2778 0 CODE 0 text53 dist/default/production\I2CNavKey.X.production.o
+__size_ofi1___wmul 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_Config_GP1 1A92 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__end_of_Config_GP2 1DB6 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__end_of_Config_GP3 1EA6 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+_TimerInt 1356 0 CODE 0 text46 dist/default/production\I2CNavKey.X.production.o
+_eeprom_read 180C 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+___fladd@a 74 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+___fladd@b 70 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+_NavKey_CentralButton_FSM 740 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_RC0PPSbits EA0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+___flsub@a 52 0 BANK0 1 cstackBANK0 dist/default/production\I2CNavKey.X.production.o
+___flsub@b 56 0 BANK0 1 cstackBANK0 dist/default/production\I2CNavKey.X.production.o
+_RB7PPSbits E9F 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_TMR2_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_TMR3_Initialize 29D4 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+_TMR3_StartTimer 836 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_TMR3_WriteTimer 2810 0 CODE 0 text42 dist/default/production\I2CNavKey.X.production.o
+__CFG_PPS1WAY$OFF 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+RegisterRead@add 71 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+__CFG_MCLRE$OFF 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PIN_MANAGER_Initialize 2908 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+_WPUBbits 20D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_WPUCbits 20E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_CLC_1_Interrupt 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+start_initialization 64 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_NavKey_FSM 740 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_TimerInt 135C 0 CODE 0 text46 dist/default/production\I2CNavKey.X.production.o
+_ODCONA 28C 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_ODCONB 28D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_ODCONC 28E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CCPTMRSbits 29F 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_OSCFRQ 91F 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_PWM1_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_Int2StatusClear 1728 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+_PWM2_Initialize 1DB6 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+_TRISCbits 8E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_NavKey_RTButton_FSM 160E 0 CODE 0 text16 dist/default/production\I2CNavKey.X.production.o
+_NavKeyStatusUpdate 7DA 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_SYSTEM_Initialize 289A 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__end_of_gamma_table 132C 0 STRCODE 0 stringtext1 dist/default/production\I2CNavKey.X.production.o
+clear_ram0 1654 0 CODE 0 clrtext dist/default/production\I2CNavKey.X.production.o
+__pcstackBANK0 4A 0 BANK0 1 cstackBANK0 dist/default/production\I2CNavKey.X.production.o
+__pcstackBANK1 C7 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+_T3GCON 414 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_CLC1_ISR 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_CLC2_ISR 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_NavKey_PBtemp A5 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+__end_ofi1_SetInterrupt 2FC6 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__size_ofi1_NavKeyStatusUpdate 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_int2clear C0 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_RB6PPSbits E9E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_CLC1_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC2_Initialize 289A 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+_NSTATUS 32 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_ClearInterrupt CA 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_WDTCON 97 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+i1___wmul@multiplicand 72 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+__end_of_NavKey_LTButton_FSM 2874 0 CODE 0 text17 dist/default/production\I2CNavKey.X.production.o
+i1_I2C1_Initialize 1F66 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\scaron\AppData\Local\Temp\s1rao.o
+i1___wmul 1C9C 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__end_of_PWM3_Initialize 1EC0 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+_gp_fade_cnt 34 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 83C 0 CODE 0 cinit -
+i1___wmul@product 74 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+__Hidloc 0 0 IDLOC 0 idloc -
+__size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+__end_ofi1_NavKeyStatusUpdate 2C4C 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+_NVMADRH 892 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_NVMADRL 891 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_NVMCON2 896 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_NVMDATH 894 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_NVMDATL 893 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbigram 0 0 ABS 0 bigram -
+__end_of_StatusClear 1722 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__Hmaintext 0 0 ABS 0 maintext -
+__size_of_DataInitSet 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_NavKey_DWButton_FSM 82C 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10016 0 CONFIG 0 config -
+__end_ofi1___wmul 1CC6 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+TMR3_WriteTimer@timerVal 70 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit 64 0 CODE 0 cinit -
+NavKey_DWButton_FSM@dn_fsm B7 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+__Lidloc 0 0 IDLOC 0 idloc -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+_DoublePush B3 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+PWM_GP1@duty D5 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+NavKey_RTButton_FSM@rt_fsm B6 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_PORTAbits C 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PORTBbits D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PORTCbits E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_double_push_cnt B1 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+PWM_GP2@duty D5 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+_INTCONbits B 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 60 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 60 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pstringtext1 83C 0 STRCODE 0 stringtext1 dist/default/production\I2CNavKey.X.production.o
+__pnvBANK0 5E 0 BANK0 1 nvBANK0 dist/default/production\I2CNavKey.X.production.o
+__pnvBANK1 D7 0 BANK1 1 nvBANK1 dist/default/production\I2CNavKey.X.production.o
+PWM_GP3@duty D5 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+_SSP1CON1 215 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_SSP1CON2 216 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_SSP1CON3 217 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_SSP1STAT 214 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+___flge 2C4C 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+___wmul 6CE 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__size_of_UpdateOut_GP1 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_UpdateOut_GP2 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_UpdateOut_GP3 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+int$flags 7E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_PWM_GP1 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_PWM_GP2 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_PWM_GP3 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC1GLS0 F16 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC1GLS1 F17 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC1GLS2 F18 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC1GLS3 F19 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC1SEL0 F12 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC1SEL1 F13 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC1SEL2 F14 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC1SEL3 F15 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC1_ISR 2A14 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+_CLC2GLS0 F20 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC2GLS1 F21 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC2GLS2 F22 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC2GLS3 F23 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC2SEL0 F1C 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC2SEL1 F1D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC2SEL2 F1E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC2SEL3 F1F 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC2_ISR 2A0C 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__size_of_WDT_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PR2 1E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__S0 800B 0 ABS 0 - -
+__S1 DB 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__size_of_TMR3_ISR 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_TMR3_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_TMR3_StartTimer 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_TMR3_WriteTimer 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_FadeProcessSet 70A 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+i1___wmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+__size_of_TMR3_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_ClearInterrupt D0 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+FadeProcessSet@stat C7 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+__end_of_CLC1_ISR 2A1C 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__end_of_CLC2_ISR 2A14 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__size_of_Int2StatusClear 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_PWM2_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_NavKeySwitch_KeyFilter 135C 0 CODE 0 text20 dist/default/production\I2CNavKey.X.production.o
+_PWM3_Initialize 1EA6 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__end_of_TMR3_DefaultInterruptHandler 8 0 CODE 0 text45 dist/default/production\I2CNavKey.X.production.o
+__size_of_NavKey_CentralButton_FSM 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_CLC_2_Interrupt 2C42 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+_en_deb AF 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_SYSTEM_Initialize 2874 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+_RegisterRead 172E 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__end_of_NavKey_RTButton_FSM 1654 0 CODE 0 text16 dist/default/production\I2CNavKey.X.production.o
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+eeprom_write@value 70 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+__CFG_BORV$LOW 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__HnvBANK0 0 0 ABS 0 nvBANK0 -
+__HnvBANK1 0 0 ABS 0 nvBANK1 -
+__end_of_UpdateOut_GP1 2740 0 CODE 0 text55 dist/default/production\I2CNavKey.X.production.o
+__end_of_UpdateOut_GP2 2778 0 CODE 0 text54 dist/default/production\I2CNavKey.X.production.o
+__end_of_UpdateOut_GP3 27B0 0 CODE 0 text53 dist/default/production\I2CNavKey.X.production.o
+__Lintentry 8 0 CODE 0 intentry -
+_en_prev B9 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_GeneralDataSet 1EC0 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\scaron\AppData\Local\Temp\s1rao.o
+_eeprom_write 27B0 0 CODE 0 text52 dist/default/production\I2CNavKey.X.production.o
+_TMR3_CallBack 27FA 0 CODE 0 text42 dist/default/production\I2CNavKey.X.production.o
+__size_of_I2C1_Initialize_ClockStreach 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__pdataBANK0 5F 0 BANK0 1 dataBANK0 dist/default/production\I2CNavKey.X.production.o
+__size_of___flge 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of___wmul 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_CLC2_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/production\I2CNavKey.X.production.o
+_ADC_Initialize 400 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_I2C1_Initialize_ClockStreach 1F66 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__size_of_Config_GP1 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_Config_GP2 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_Config_GP3 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_PMD_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PIE1bits 91 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PIE3bits 93 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+?_ADC_GetConversion C7 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+___fladd@signs 78 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+__ptext10 28D0 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__ptext11 28C4 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__ptext12 289A 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__ptext13 29AA 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__ptext14 714 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext15 15C8 0 CODE 0 text15 dist/default/production\I2CNavKey.X.production.o
+__ptext16 160E 0 CODE 0 text16 dist/default/production\I2CNavKey.X.production.o
+__ptext17 282E 0 CODE 0 text17 dist/default/production\I2CNavKey.X.production.o
+__ptext18 7EA 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext19 740 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext20 135C 0 CODE 0 text20 dist/default/production\I2CNavKey.X.production.o
+__ptext21 182 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext22 262 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext23 2FC 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext24 1CC 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext25 400 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext26 3CA 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext27 410 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext28 4B8 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext29 464 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext30 56A 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext31 130 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext32 61C 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext33 6CE 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext34 70A 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext35 6F8 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext36 3A8 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext37 396 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext38 7DA 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext39 D0 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext40 CA 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext42 27E8 0 CODE 0 text42 dist/default/production\I2CNavKey.X.production.o
+__ptext43 2810 0 CODE 0 text42 dist/default/production\I2CNavKey.X.production.o
+__ptext44 27FA 0 CODE 0 text42 dist/default/production\I2CNavKey.X.production.o
+__ptext45 6 0 CODE 0 text45 dist/default/production\I2CNavKey.X.production.o
+__ptext46 1356 0 CODE 0 text46 dist/default/production\I2CNavKey.X.production.o
+__ptext47 1660 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__ptext48 1696 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__ptext49 1722 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__ptext50 171A 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__ptext51 182A 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext52 27B0 0 CODE 0 text52 dist/default/production\I2CNavKey.X.production.o
+__ptext53 2778 0 CODE 0 text53 dist/default/production\I2CNavKey.X.production.o
+__ptext54 2740 0 CODE 0 text54 dist/default/production\I2CNavKey.X.production.o
+__ptext55 2708 0 CODE 0 text55 dist/default/production\I2CNavKey.X.production.o
+__ptext56 1F8C 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext57 1EC0 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext58 1F66 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext59 1F3E 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext60 1DCE 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext61 1A92 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext62 1EA6 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext63 1CDE 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext64 1B40 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext65 1DB6 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext66 19BA 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext67 1BEE 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext68 1C9C 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext69 1CC6 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__ptext70 172E 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__ptext71 180C 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__ptext72 1728 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__ptext73 2A0C 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__ptext74 2B2E 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__ptext75 2FC6 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__ptext76 2A14 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__ptext77 2A1C 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__ptext78 2FAE 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__ptext79 2C42 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__ptext80 2C4C 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__ptext81 2D10 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+_TMR3_ISR 27E8 0 CODE 0 text42 dist/default/production\I2CNavKey.X.production.o
+_TMR3_SetInterruptHandler 82C 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_PIN_MANAGER_Initialize 2976 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__end_of_FadeProcessSet 714 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+___fladd 2D10 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+___flsub 2FC6 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+_SSP1CLKPPSbits E20 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__pmaintext 8E 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_temp_gp1 37 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_temp_gp2 36 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_temp_gp3 35 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+__Lbigram 0 0 ABS 0 bigram -
+__size_of_NavKey_FSM 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_pb_cnt AA 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_pb_fsm BA 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 1000E 0 CONFIG 0 config -
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_TMR3_ISR 27FA 0 CODE 0 text42 dist/default/production\I2CNavKey.X.production.o
+__size_of_RegisterRead 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+___wmul@multiplier C7 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+_LATBbits 10D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_LATCbits 10E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CLC_2_Interrupt 2B2E 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+i1PWM_GP1@duty 4A 0 BANK0 1 cstackBANK0 dist/default/production\I2CNavKey.X.production.o
+__end_ofi1_PWM_GP1 1C9C 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__end_ofi1_PWM_GP2 1BEE 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__end_ofi1_PWM_GP3 1B40 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+i1PWM_GP2@duty 4A 0 BANK0 1 cstackBANK0 dist/default/production\I2CNavKey.X.production.o
+__size_ofi1_PWM_GP1 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_ofi1_PWM_GP2 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_ofi1_PWM_GP3 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_eeprom_write 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+?i1___wmul 70 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+__end_of_PWM_GP1 6CE 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_PWM_GP2 61C 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_PWM_GP3 56A 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+i1PWM_GP3@duty 4A 0 BANK0 1 cstackBANK0 dist/default/production\I2CNavKey.X.production.o
+__end_of_GeneralDataSet 1F3E 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+NavKeySwitch_KeyFilter@i C7 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+_OSCCON1 919 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_OSCCON3 91B 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_OSCTUNE 91E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_eeprom_read 182A 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+_ADCON0bits 9D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_StatusClear 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+___fladd@grs 7B 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_GP1_FSM 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_GP2_FSM 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+RegisterWrite@data 4D 0 BANK0 1 cstackBANK0 dist/default/production\I2CNavKey.X.production.o
+__size_of_GP3_FSM 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_RegisterRead 180C 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__CFG_LPBOREN$OFF 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_NavKey_CentralButton_FSM 7DA 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+i1_PWM_GP1 1BEE 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+i1_PWM_GP2 1B40 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+i1_PWM_GP3 1A92 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+__size_of_NavKeyStatusUpdate 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_PWM3_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_ADC_Initialize 410 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+___flge@ff1 70 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+___flge@ff2 74 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+_PIR1bits 11 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PIR3bits 13 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__Lend_init 60 0 CODE 0 end_init -
+__CFG_CSWEN$ON 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__end_of_eeprom_write 27E8 0 CODE 0 text52 dist/default/production\I2CNavKey.X.production.o
+__size_of_NavKey_UPButton_FSM 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+end_of_initialization 88 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_DPPERIOD 40 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+I2C1_ISR@i2c_data 50 0 BANK0 1 cstackBANK0 dist/default/production\I2CNavKey.X.production.o
+__Hintentry 60 0 CODE 0 intentry -
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__CFG_RSTOSC$HFINT32 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_PPSLOCKbits E0F 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+?___fladd 70 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+?___flsub 52 0 BANK0 1 cstackBANK0 dist/default/production\I2CNavKey.X.production.o
+_DataInitSet D0 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+_SetInterrupt 3A8 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__size_of_TMR3_CallBack 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__ptext1 836 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext2 2874 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__ptext3 29A2 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__ptext4 29D4 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__ptext5 82C 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__ptext6 2992 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__ptext7 2976 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__ptext8 2908 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__ptext9 28F6 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+FadeProcessClear@stat CA 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__size_ofi1_SetInterrupt 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_gp_timer BE 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+___fladd@aexp 79 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+___fladd@bexp 7A 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+__end_of_NavKeySwitch_KeyFilter 1400 0 CODE 0 text20 dist/default/production\I2CNavKey.X.production.o
+_GeneralDataSplit 1F8C 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+_i2c_address 5E 0 BANK0 1 nvBANK0 dist/default/production\I2CNavKey.X.production.o
+i1_ClearInterrupt 1722 0 CODE 0 text47 dist/default/production\I2CNavKey.X.production.o
+__size_of_ADC_GetConversion 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+NavKey_UPButton_FSM@up_fsm B8 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_NavKey_UPButton_FSM 15C8 0 CODE 0 text15 dist/default/production\I2CNavKey.X.production.o
+__size_of_CLC_2_Interrupt 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_FADE_GP1 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_FADE_GP2 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_FADE_GP3 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+i1_NavKeyStatusUpdate 2C42 0 CODE 0 text73 dist/default/production\I2CNavKey.X.production.o
+__end_of__initialization 88 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_GP_Ports_FSM 182 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_INTCONF 30 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__end_of_TMR3_CallBack 2810 0 CODE 0 text42 dist/default/production\I2CNavKey.X.production.o
+__size_of_TMR3_SetInterruptHandler 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_NVMCON1bits 895 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__pidataBANK0 0 0 CODE 0 idataBANK0 dist/default/production\I2CNavKey.X.production.o
+_TMR3_InterruptHandler D7 0 BANK1 1 nvBANK1 dist/default/production\I2CNavKey.X.production.o
+Int2StatusUpdate@stat C9 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+__size_of_SetInterrupt 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_SSP1CON1bits 215 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_SSP1CON2bits 216 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_I2C1_slaveWriteData 5F 0 BANK0 1 dataBANK0 dist/default/production\I2CNavKey.X.production.o
+__pswtext10 1400 0 CONST 0 swtext10 dist/default/production\I2CNavKey.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+I2C1_StatusCallback@slaveWriteType BF 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+__end_of_GP1_FSM 262 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_GP2_FSM 396 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_T3CONbits 413 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_GP3_FSM 2FC 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_I2C1_Initialize 28F6 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+_SSP1ADD 212 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_SSP1BUF 211 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_SSP1MSK 213 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_SSTATUS 45 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+__Hend_init 64 0 CODE 0 end_init -
+_timer3ReloadVal D9 0 BANK1 1 nvBANK1 dist/default/production\I2CNavKey.X.production.o
+i1NavKeyStatusUpdate@stat 70 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+_RegisterWrite 182A 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+_fsm_tmr C6 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+__end_of_main CA 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_NavKey_PBstatus A0 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_ADACT 9F 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_ODCONCbits 28E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_GCONF 49 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_ISTEP 20 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_CLCIN1PPSbits E29 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_OSCEN 91D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_T2CON 1F 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_T3CON 413 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_TMR3H 412 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_TMR3L 411 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_TRISA 8C 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_TRISB 8D 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_TRISC 8E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__end_of_SetInterrupt 3CA 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_Int2StatusUpdate 396 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+eeprom_read@addr 70 0 COMMON 1 cstackCOMMON dist/default/production\I2CNavKey.X.production.o
+__size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_WDT_Initialize 29A2 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+_CCP1CON 293 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_CCP2CON 297 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production\I2CNavKey.X.production.o
+_CCP3CON 313 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_SSP1DATPPSbits E21 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_GP_Ports_FSM 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__size_of_I2C1_StatusCallback 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__size_of_ClearInterrupt 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_OSCILLATOR_Initialize 2908 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__initialization 64 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_gamma_table 83C 0 STRCODE 0 stringtext1 dist/default/production\I2CNavKey.X.production.o
+_FADE_GP1 130 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_FADE_GP2 464 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_FADE_GP3 410 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__size_of_eeprom_read 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\I2CNavKey.X.production.o
+_PPSLOCK E0F 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_GAMMAGP1 3E 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_GAMMAGP2 3D 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_GAMMAGP3 3C 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_FadeProcessClear 6F8 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_I2C1_AddressSet 28D0 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+___wmul@product CB 0 BANK1 1 cstackBANK1 dist/default/production\I2CNavKey.X.production.o
+__size_ofi1_I2C1_Initialize 0 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+I2C1_StatusCallback@i2c_bus_state 4F 0 BANK0 1 cstackBANK0 dist/default/production\I2CNavKey.X.production.o
+_FSTATUS 44 0 BANK0 1 bssBANK0 dist/default/production\I2CNavKey.X.production.o
+_STATUSbits 3 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+_ANSELCbits 18E 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__end_of_FADE_GP1 182 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_FADE_GP2 4B8 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+__end_of_FADE_GP3 464 0 CODE 0 cinit dist/default/production\I2CNavKey.X.production.o
+_CLCIN0PPSbits E28 0 ABS 0 - dist/default/production\I2CNavKey.X.production.o
+__pswtext1 132C 0 CONST 0 swtext1 dist/default/production\I2CNavKey.X.production.o
+__pswtext2 1344 0 CONST 0 swtext2 dist/default/production\I2CNavKey.X.production.o
+__pswtext3 2088 0 CONST 0 swtext3 dist/default/production\I2CNavKey.X.production.o
+__pswtext4 2098 0 CONST 0 swtext4 dist/default/production\I2CNavKey.X.production.o
+__pswtext5 20A8 0 CONST 0 swtext5 dist/default/production\I2CNavKey.X.production.o
+__pswtext6 2000 0 CONST 0 swtext6 dist/default/production\I2CNavKey.X.production.o
+__pswtext7 20B8 0 CONST 0 swtext7 dist/default/production\I2CNavKey.X.production.o
+__pswtext8 20C8 0 CONST 0 swtext8 dist/default/production\I2CNavKey.X.production.o
+__pswtext9 20D8 0 CONST 0 swtext9 dist/default/production\I2CNavKey.X.production.o
+_OSCILLATOR_Initialize 28F6 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__end_of_TMR2_Initialize 29A2 0 CODE 0 text2 dist/default/production\I2CNavKey.X.production.o
+__end_of_GeneralDataSplit 2000 0 CODE 0 text51 dist/default/production\I2CNavKey.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text2 0 143A 2874 CC 2
+text15 0 AE4 15C8 4C 2
+text17 0 1417 282E 23 2
+text20 0 9AE 135C 52 2
+text42 0 13F4 27E8 23 2
+text45 0 3 6 1 2
+text46 0 9AB 1356 3 2
+text47 0 B30 1660 E5 2
+text51 0 C15 182A 3EB 2
+text52 0 13D8 27B0 1C 2
+text53 0 13BC 2778 1C 2
+text54 0 13A0 2740 1C 2
+text55 0 1384 2708 1C 2
+text73 0 1506 2A0C 2FA 2
+cstackCOMMON 1 70 70 E 1
+stringtext1 0 41E 83C 578 2
+swtext10 0 A00 1400 E4 2
+intentry 0 4 8 41A 2
+reset_vec 0 0 0 2 2
+bssBANK0 1 20 20 40 1
+bssBANK1 1 A0 A0 3B 1
+swtext1 0 996 132C 14 2
+swtext6 0 1000 2000 74 2
+config 0 8007 1000E 4 2

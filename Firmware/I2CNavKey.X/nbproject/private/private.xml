@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/i2c_register.c</file>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/mcc_generated_files/i2c1.c</file>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/NavKey.c</file>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/NavKey.h</file>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/mcc_generated_files/pin_manager.h</file>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/mcc_generated_files/mcc.c</file>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/DataVariable.h</file>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/DataVariable.c</file>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/GPports.c</file>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/mcc_generated_files/pin_manager.c</file>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/main.c</file>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/i2c_register.h</file>
+            <file>file:/C:/Users/scaron/SVN/I2CNavKey/FW/I2CNavKey.X/mcc_generated_files/interrupt_manager.c</file>
+        </group>
+    </open-files>
+</project-private>
