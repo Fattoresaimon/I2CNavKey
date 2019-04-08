@@ -32,7 +32,7 @@ This project is avaiable on our [Tindie store!](https://www.tindie.com/products/
 * [Arduino Library:](https://github.com/Fattoresaimon/ArduinoDuPPaLib) Repository where you can find the Arduino IDE library for the DuPPa boards
 * [Firmware:](/Firmware) Project folder of Microchip MPLAB X contain the code running inside of the PIC16F18345
 * [Hardware:](/Hardware) Folder containing the production file, schematic, STEP file
-* [Datasheet EncoderI2C V2:](I2CNavKey_v1.0.pdf) Datasheet of the board with the description of the registers and some useful information.
+* [Datasheet I2C NavKey:](I2CNavKey_v1.0.pdf) Datasheet of the board with the description of the registers and some useful information.
 
 
 
