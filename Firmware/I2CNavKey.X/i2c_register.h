@@ -13,7 +13,7 @@
 
 /** Default I2C address **/
 #define I2C1_SLAVE_ADDRESS 0x10 
-#define CUSTOM_ADD 0b0010000 
+///#define CUSTOM_ADD 0b0010000 
 
 /** Internal i2C address definition **/
 typedef enum {
