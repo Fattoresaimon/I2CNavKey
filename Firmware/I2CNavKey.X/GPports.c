@@ -137,11 +137,12 @@ void FADE_GP3(void) {
  */
 void Config_GP1(void) {
 
-    CCP1CON = 0;
+
     UNLOCK_PPS;
     RC2PPSbits.RC2PPS = 0x00;
     LOCK_PPS;
-
+    CCP1CON = 0;
+    
     switch (GP1CONF & GPMODE) {
         case GP_PWM:
             GP1_SetDigitalMode();
@@ -187,18 +188,18 @@ void Config_GP1(void) {
  */
 void Config_GP2(void) {
 
-    CCP2CON = 0;
+
     UNLOCK_PPS;
     RC1PPSbits.RC1PPS = 0x00;
     LOCK_PPS;
-
+    CCP2CON = 0;
     switch (GP2CONF & GPMODE) {
         case GP_PWM:
             GP2_SetDigitalMode();
             GP2_SetHigh();
             GP2_SetDigitalOutput();
             UNLOCK_PPS;
-            RC1PPSbits.RC1PPS = 0x0C; //RC1->CCP2:PWM2;
+            RC1PPSbits.RC1PPS = 0x0D; //RC1->CCP2:PWM2;
             LOCK_PPS;
             PWM2_Initialize();
             PWM_GP2(0);
@@ -237,18 +238,18 @@ void Config_GP2(void) {
  * @brief Function for configure the GP3 port
  */
 void Config_GP3(void) {
-    CCP3CON = 0;
+
     UNLOCK_PPS;
     RC0PPSbits.RC0PPS = 0x00;
     LOCK_PPS;
-
+    CCP3CON = 0;
     switch (GP3CONF & GPMODE) {
         case GP_PWM:
             GP3_SetDigitalMode();
             GP3_SetHigh();
             GP3_SetDigitalOutput();
             UNLOCK_PPS;
-            RC0PPSbits.RC0PPS = 0x0D; //RC0->CCP3:PWM3;  
+            RC0PPSbits.RC0PPS = 0x0E; //RC0->CCP3:PWM3;  
             LOCK_PPS;
             PWM3_Initialize();
             PWM_GP3(0);

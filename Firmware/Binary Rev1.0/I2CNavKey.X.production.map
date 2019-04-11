@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v2.05\pic\dat\en_msgs.txt \
   -cs -h+dist/default/production\I2CNavKey.X.production.sym \
   --cmf=dist/default/production\I2CNavKey.X.production.cmf -z -Q16F18345 \
-  -oC:\Users\scaron\AppData\Local\Temp\s1rao.2 --defsym=__MPLAB_BUILD=1 \
+  -oC:\Users\scaron\AppData\Local\Temp\s4ug.2 --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/I2CNavKey.X.production.map -E1 -ver=XC8 \
   --acfsm=1493 -ASTACK=0208Bh-023EFh -pstack=STACK -ACODE=00h-07FFhx4 \
   -ASTRCODE=00h-01FFFh -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 \
@@ -32,7 +32,7 @@ Linker command line:
   -pconfig=CONFIG -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 \
   -AEEDATA=00h-0FFh/0F000h -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 \
   -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\Users\scaron\AppData\Local\Temp\s1rao.o \
+  C:\Users\scaron\AppData\Local\Temp\s4ug.o \
   dist/default/production\I2CNavKey.X.production.o 
 
 Object code version is 3.11
@@ -42,90 +42,88 @@ Machine type is 16F18345
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\scaron\AppData\Local\Temp\s1rao.o
+C:\Users\scaron\AppData\Local\Temp\s4ug.o
                 end_init                             30       30        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        4    1000E       0
 dist/default/production\I2CNavKey.X.production.o
-                cinit                                32       32      3EC        8       0
+                cinit                                32       32      3F9        8       0
                 intentry                              4        4       2C        8       0
-                text73                             1506     1506      2FA     2A0C       0
+                text73                             14FA     14FA      306     29F4       0
                 swtext10                            A00      A00       E4     1400       0
-                swtext9                            106C     106C        8     2000       0
-                swtext8                            1064     1064        8     2000       0
-                swtext7                            105C     105C        8     2000       0
-                text55                             1384     1384       1C     2708       0
-                text54                             13A0     13A0       1C     2740       0
-                text53                             13BC     13BC       1C     2778       0
-                text52                             13D8     13D8       1C     27B0       0
+                swtext9                            1064     1064        8     2000       0
+                swtext8                            105C     105C        8     2000       0
+                swtext7                            1054     1054        8     2000       0
+                text57                             12EF     12EF       66     25DE       0
+                text55                             127F     127F       1C     24FE       0
+                text54                             129B     129B       1C     2536       0
+                text53                             12B7     12B7       1C     256E       0
+                text52                             12D3     12D3       1C     25A6       0
                 swtext6                            1000     1000       44     2000       0
-                text51                              C15      C15      3EB     182A       0
-                swtext5                            1054     1054        8     2000       0
-                text47                              B30      B30       E5     1660       0
+                text51                              C06      C06      3FA     180C       0
+                swtext5                            104C     104C        8     2000       0
+                text47                              B21      B21       E5     1642       0
                 text46                              9AB      9AB        3     1356       0
                 text45                                3        3        1        6       0
-                text42                             13F4     13F4       23     27E8       0
-                swtext4                            104C     104C        8     2000       0
-                swtext3                            1044     1044        8     2000       0
-                swtext2                             9A2      9A2        8     132C       0
+                text42                              AE4      AE4       23     15C8       0
+                swtext4                            1044     1044        8     2000       0
+                swtext3                             B13      B13        8     160E       0
+                swtext2                             9A3      9A3        8     1346       0
                 text20                              9AE      9AE       52     135C       0
-                swtext1                             996      996        C     132C       0
-                text17                             1417     1417       23     282E       0
-                text16                              B07      B07       23     15C8       0
-                text15                              AE4      AE4       23     15C8       0
-                text2                              143A     143A       CC     2874       0
+                swtext1                             B07      B07        C     160E       0
+                text15                             1421     1421       D9     2842       0
+                text2                              1355     1355       CC     26AA       0
                 cstackBANK0                          4A       4A       14       20       1
                 cstackCOMMON                         70       70        E       70       1
                 cstackBANK1                          C7       C7       10       A0       1
-                clrtext                             B2A      B2A        6     15C8       0
+                clrtext                             B1B      B1B        6     1636       0
                 bssBANK1                             A0       A0       27       A0       1
                 dataBANK0                            5F       5F        1       20       1
                 bssBANK0                             20       20       2A       20       1
                 nvBANK1                              D7       D7        4       A0       1
                 nvBANK0                              5E       5E        1       20       1
-                stringtext1                         41E      41E      578      83C       0
+                stringtext1                         42B      42B      578      856       0
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   STACK          
 
         CLASS   CODE           
                 end_init                             30       30        2         0
-                cinit                                32       32      3EC         0
+                cinit                                32       32      3F9         0
                 intentry                              4        4       2C         0
                 reset_vec                             0        0        2         0
-                text73                             1506     1506      2FA         0
-                text55                             1384     1384       1C         0
-                text54                             13A0     13A0       1C         0
-                text53                             13BC     13BC       1C         0
-                text52                             13D8     13D8       1C         0
-                text51                              C15      C15      3EB         0
-                text47                              B30      B30       E5         0
+                text73                             14FA     14FA      306         0
+                text57                             12EF     12EF       66         0
+                text55                             127F     127F       1C         0
+                text54                             129B     129B       1C         0
+                text53                             12B7     12B7       1C         0
+                text52                             12D3     12D3       1C         0
+                text51                              C06      C06      3FA         0
+                text47                              B21      B21       E5         0
                 text46                              9AB      9AB        3         0
                 text45                                3        3        1         0
-                text42                             13F4     13F4       23         0
+                text42                              AE4      AE4       23         0
                 text20                              9AE      9AE       52         0
-                text17                             1417     1417       23         0
-                text16                              B07      B07       23         0
-                text15                              AE4      AE4       23         0
-                text2                              143A     143A       CC         0
-                clrtext                             B2A      B2A        6         0
+                text15                             1421     1421       D9         0
+                text2                              1355     1355       CC         0
+                clrtext                             B1B      B1B        6         0
 
         CLASS   STRCODE        
-                stringtext1                         41E      41E      578         0
+                stringtext1                         42B      42B      578         0
 
         CLASS   STRING         
 
         CLASS   CONST          
                 swtext10                            A00      A00       E4         0
-                swtext9                            106C     106C        8         0
-                swtext8                            1064     1064        8         0
-                swtext7                            105C     105C        8         0
+                swtext9                            1064     1064        8         0
+                swtext8                            105C     105C        8         0
+                swtext7                            1054     1054        8         0
                 swtext6                            1000     1000       44         0
-                swtext5                            1054     1054        8         0
-                swtext4                            104C     104C        8         0
-                swtext3                            1044     1044        8         0
-                swtext2                             9A2      9A2        8         0
-                swtext1                             996      996        C         0
+                swtext5                            104C     104C        8         0
+                swtext4                            1044     1044        8         0
+                swtext3                             B13      B13        8         0
+                swtext2                             9A3      9A3        8         0
+                swtext1                             B07      B07        C         0
 
         CLASS   ENTRY          
 
@@ -287,27 +285,29 @@ SEGMENTS        Name                           Load    Length   Top    Selector 
 
                 reset_vec                      000000  000002  000002         0       0  CODE        2
                 text45                         000003  000001  000004         6       0  CODE        2
-                intentry                       000004  00041A  00041E         8       0  CODE        2
+                intentry                       000004  000427  00042B         8       0  CODE        2
                 bssBANK0                       000020  000040  000060        20       1  BANK0       1
                 cstackCOMMON                   000070  00000E  00007E        70       1  COMMON      1
                 bssBANK1                       0000A0  00003B  0000DB        A0       1  BANK1       1
-                stringtext1                    00041E  000578  000996       83C       0  STRCODE     2
-                swtext1                        000996  000014  0009AA      132C       0  CONST       2
+                stringtext1                    00042B  000578  0009A3       856       0  STRCODE     2
+                swtext2                        0009A3  000008  0009AB      1346       0  CONST       2
                 text46                         0009AB  000003  0009AE      1356       0  CODE        2
                 text20                         0009AE  000052  000A00      135C       0  CODE        2
                 swtext10                       000A00  0000E4  000AE4      1400       0  CONST       2
-                text15                         000AE4  00004C  000B30      15C8       0  CODE        2
-                text47                         000B30  0000E5  000C15      1660       0  CODE        2
-                text51                         000C15  0003EB  001000      182A       0  CODE        2
-                swtext6                        001000  000074  001074      2000       0  CONST       2
-                text55                         001384  00001C  0013A0      2708       0  CODE        2
-                text54                         0013A0  00001C  0013BC      2740       0  CODE        2
-                text53                         0013BC  00001C  0013D8      2778       0  CODE        2
-                text52                         0013D8  00001C  0013F4      27B0       0  CODE        2
-                text42                         0013F4  000023  001417      27E8       0  CODE        2
-                text17                         001417  000023  00143A      282E       0  CODE        2
-                text2                          00143A  0000CC  001506      2874       0  CODE        2
-                text73                         001506  0002FA  001800      2A0C       0  CODE        2
+                text42                         000AE4  000023  000B07      15C8       0  CODE        2
+                swtext1                        000B07  000014  000B1B      160E       0  CONST       2
+                clrtext                        000B1B  000006  000B21      1636       0  CODE        2
+                text47                         000B21  0000E5  000C06      1642       0  CODE        2
+                text51                         000C06  0003FA  001000      180C       0  CODE        2
+                swtext6                        001000  00006C  00106C      2000       0  CONST       2
+                text55                         00127F  00001C  00129B      24FE       0  CODE        2
+                text54                         00129B  00001C  0012B7      2536       0  CODE        2
+                text53                         0012B7  00001C  0012D3      256E       0  CODE        2
+                text52                         0012D3  00001C  0012EF      25A6       0  CODE        2
+                text57                         0012EF  000066  001355      25DE       0  CODE        2
+                text2                          001355  0000CC  001421      26AA       0  CODE        2
+                text15                         001421  0000D9  0014FA      2842       0  CODE        2
+                text73                         0014FA  000306  001800      29F4       0  CODE        2
                 config                         008007  000004  00800B     1000E       0  CONFIG      2
 
 
@@ -329,17 +329,14 @@ UNUSED ADDRESS RANGES
         BANK9            004A0-004EF              50           1
         BIGRAM           02000-023EF             3F0           1
         CODE             00002-00002               1           2
-                         009AA-009AA               1
-                         01074-01383             310
+                         0106C-0127E             213
                          01800-01FFF             800
         CONST            00002-00002               1           2
-                         009AA-009AA               1
-                         01074-01383             100
+                         0106C-0127E             100
                          01800-01FFF             100
         EEDATA           0F000-0F0FF             100           2
         ENTRY            00002-00002               1           2
-                         009AA-009AA               1
-                         01074-01383             100
+                         0106C-0127E             100
                          01800-01FFF             100
         IDLOC            08000-08003               4           2
         RAM              00060-0006F              10           1
@@ -389,12 +386,10 @@ UNUSED ADDRESS RANGES
         SFR9             00480-0049F              20           1
         STACK            0208B-023EF             365           1
         STRCODE          00002-00002               1           2
-                         009AA-009AA               1
-                         01074-01383             310
+                         0106C-0127E             213
                          01800-01FFF             800
         STRING           00002-00002               1           2
-                         009AA-009AA               1
-                         01074-01383             100
+                         0106C-0127E             100
                          01800-01FFF             100
 
                                   Symbol Table
@@ -430,8 +425,8 @@ _ADACT                                    (abs)        0009F
 _ADCON0                                   (abs)        0009D
 _ADCON0bits                               (abs)        0009D
 _ADCON1                                   (abs)        0009E
-_ADC_GetConversion                        cinit        001E5
-_ADC_Initialize                           cinit        00200
+_ADC_GetConversion                        cinit        001E6
+_ADC_Initialize                           cinit        00201
 _ADRESH                                   (abs)        0009C
 _ADRESL                                   (abs)        0009B
 _ANSELA                                   (abs)        0018C
@@ -458,8 +453,8 @@ _CLC1SEL0                                 (abs)        00F12
 _CLC1SEL1                                 (abs)        00F13
 _CLC1SEL2                                 (abs)        00F14
 _CLC1SEL3                                 (abs)        00F15
-_CLC1_ISR                                 text73       0150A
-_CLC1_Initialize                          text2        014D5
+_CLC1_ISR                                 text73       01504
+_CLC1_Initialize                          text2        013F0
 _CLC2CON                                  (abs)        00F1A
 _CLC2GLS0                                 (abs)        00F20
 _CLC2GLS1                                 (abs)        00F21
@@ -470,8 +465,8 @@ _CLC2SEL0                                 (abs)        00F1C
 _CLC2SEL1                                 (abs)        00F1D
 _CLC2SEL2                                 (abs)        00F1E
 _CLC2SEL3                                 (abs)        00F1F
-_CLC2_ISR                                 text73       01506
-_CLC2_Initialize                          text2        0144D
+_CLC2_ISR                                 text73       014FA
+_CLC2_Initialize                          text2        01368
 _CLCIN0PPSbits                            (abs)        00E28
 _CLCIN1PPSbits                            (abs)        00E29
 _CLC_1_Interrupt                          text73       0150E
@@ -487,20 +482,20 @@ _C_MBANK                                  bssBANK0     0003B
 _C_RESET                                  bssBANK1     000C5
 _C_WRAPE                                  bssBANK0     0003A
 _ClearInterrupt                           cinit        00065
-_Config_GP1                               text51       00CDD
-_Config_GP2                               text51       00E6F
-_Config_GP3                               text51       00EE7
+_Config_GP1                               text51       00CCE
+_Config_GP2                               text51       00ED5
+_Config_GP3                               text51       00F4D
 _DPPERIOD                                 bssBANK0     00040
 _DataInitSet                              cinit        00068
 _DoublePush                               bssBANK1     000B3
 _EncoderReg                               bssBANK0     00038
 _FADEGP                                   bssBANK0     0003F
 _FADE_GP1                                 cinit        00098
-_FADE_GP2                                 cinit        00232
-_FADE_GP3                                 cinit        00208
+_FADE_GP2                                 cinit        00233
+_FADE_GP3                                 cinit        00209
 _FSTATUS                                  bssBANK0     00044
-_FadeProcessClear                         cinit        0037C
-_FadeProcessSet                           cinit        00385
+_FadeProcessClear                         cinit        003FB
+_FadeProcessSet                           cinit        00404
 _GAMMAGP1                                 bssBANK0     0003E
 _GAMMAGP2                                 bssBANK0     0003D
 _GAMMAGP3                                 bssBANK0     0003C
@@ -515,19 +510,19 @@ _GP3CONF                                  bssBANK0     00046
 _GP3REG                                   bssBANK0     00041
 _GP3_FSM                                  cinit        00131
 _GP_Ports_FSM                             cinit        000C1
-_GeneralDataSet                           text51       00F60
+_GeneralDataSet                           text57       012EF
 _GeneralDataSplit                         text51       00FC6
-_I2C1_AddressSet                          text2        01462
-_I2C1_ISR                                 text47       00B30
-_I2C1_Initialize                          text2        01468
-_I2C1_Initialize_ClockStreach             text51       00F9F
-_I2C1_StatusCallback                      text47       00B4B
+_I2C1_AddressSet                          text2        0137D
+_I2C1_ISR                                 text47       00B21
+_I2C1_Initialize                          text2        01383
+_I2C1_Initialize_ClockStreach             text57       0132E
+_I2C1_StatusCallback                      text47       00B3C
 _I2C1_slaveWriteData                      dataBANK0    0005F
 _INTCONF                                  bssBANK0     00030
 _INTCONbits                               (abs)        0000B
 _INTERRUPT_InterruptManager               intentry     00004
 _ISTEP                                    bssBANK0     00020
-_Int2StatusClear                          text47       00B94
+_Int2StatusClear                          text47       00B85
 _Int2StatusUpdate                         cinit        001CB
 _LATA                                     (abs)        0010C
 _LATB                                     (abs)        0010D
@@ -541,16 +536,16 @@ _NVMCON1bits                              (abs)        00895
 _NVMCON2                                  (abs)        00896
 _NVMDATH                                  (abs)        00894
 _NVMDATL                                  (abs)        00893
-_NavKeyStatusUpdate                       cinit        003ED
+_NavKeyStatusUpdate                       text15       014F2
 _NavKeySwitch_KeyFilter                   text20       009AE
-_NavKey_CentralButton_FSM                 cinit        003A0
-_NavKey_DWButton_FSM                      cinit        003F5
-_NavKey_FSM                               cinit        0038A
-_NavKey_LTButton_FSM                      text17       01417
+_NavKey_CentralButton_FSM                 text15       014A5
+_NavKey_DWButton_FSM                      text15       01484
+_NavKey_FSM                               cinit        00409
+_NavKey_LTButton_FSM                      text15       01463
 _NavKey_PBstatus                          bssBANK1     000A0
 _NavKey_PBtemp                            bssBANK1     000A5
-_NavKey_RTButton_FSM                      text16       00B07
-_NavKey_UPButton_FSM                      text15       00AE4
+_NavKey_RTButton_FSM                      text15       01442
+_NavKey_UPButton_FSM                      text15       01421
 _ODCONA                                   (abs)        0028C
 _ODCONB                                   (abs)        0028D
 _ODCONC                                   (abs)        0028E
@@ -559,11 +554,11 @@ _OSCCON1                                  (abs)        00919
 _OSCCON3                                  (abs)        0091B
 _OSCEN                                    (abs)        0091D
 _OSCFRQ                                   (abs)        0091F
-_OSCILLATOR_Initialize                    text2        0147B
+_OSCILLATOR_Initialize                    text2        01396
 _OSCTUNE                                  (abs)        0091E
 _PIE1bits                                 (abs)        00091
 _PIE3bits                                 (abs)        00093
-_PIN_MANAGER_Initialize                   text2        01484
+_PIN_MANAGER_Initialize                   text2        0139F
 _PIR1bits                                 (abs)        00011
 _PIR3bits                                 (abs)        00013
 _PMD0                                     (abs)        00911
@@ -572,26 +567,26 @@ _PMD2                                     (abs)        00913
 _PMD3                                     (abs)        00914
 _PMD4                                     (abs)        00915
 _PMD5                                     (abs)        00916
-_PMD_Initialize                           text2        014BB
+_PMD_Initialize                           text2        013D6
 _PORTAbits                                (abs)        0000C
 _PORTBbits                                (abs)        0000D
 _PORTCbits                                (abs)        0000E
 _PPSLOCK                                  (abs)        00E0F
 _PPSLOCKbits                              (abs)        00E0F
 _PR2                                      (abs)        0001E
-_PWM1_Initialize                          text51       00E63
-_PWM2_Initialize                          text51       00EDB
-_PWM3_Initialize                          text51       00F53
-_PWM_GP1                                  cinit        0030E
-_PWM_GP2                                  cinit        002B5
-_PWM_GP3                                  cinit        0025C
+_PWM1_Initialize                          text51       00EC9
+_PWM2_Initialize                          text51       00F41
+_PWM3_Initialize                          text51       00FB9
+_PWM_GP1                                  cinit        00363
+_PWM_GP2                                  cinit        002E0
+_PWM_GP3                                  cinit        0025D
 _RB6PPSbits                               (abs)        00E9E
 _RB7PPSbits                               (abs)        00E9F
 _RC0PPSbits                               (abs)        00EA0
 _RC1PPSbits                               (abs)        00EA1
 _RC2PPSbits                               (abs)        00EA2
-_RegisterRead                             text47       00B97
-_RegisterWrite                            text51       00C15
+_RegisterRead                             text47       00B88
+_RegisterWrite                            text51       00C06
 _SSP1ADD                                  (abs)        00212
 _SSP1BUF                                  (abs)        00211
 _SSP1CLKPPSbits                           (abs)        00E20
@@ -606,35 +601,35 @@ _SSP1STAT                                 (abs)        00214
 _SSP1STATbits                             (abs)        00214
 _SSTATUS                                  bssBANK0     00045
 _STATUSbits                               (abs)        00003
-_SYSTEM_Initialize                        text2        0143A
-_SetInterrupt                             cinit        001D4
-_StatusClear                              text47       00B8D
+_SYSTEM_Initialize                        text2        01355
+_SetInterrupt                             cinit        001D5
+_StatusClear                              text47       00B7E
 _T2CON                                    (abs)        0001F
 _T3CON                                    (abs)        00413
 _T3CONbits                                (abs)        00413
 _T3GCON                                   (abs)        00414
 _TMR2                                     (abs)        0001D
-_TMR2_Initialize                          text2        014C9
+_TMR2_Initialize                          text2        013E4
 _TMR3H                                    (abs)        00412
 _TMR3L                                    (abs)        00411
-_TMR3_CallBack                            text42       013FD
+_TMR3_CallBack                            text42       00AED
 _TMR3_DefaultInterruptHandler             text45       00003
-_TMR3_ISR                                 text42       013F4
-_TMR3_Initialize                          text2        014EA
+_TMR3_ISR                                 text42       00AE4
+_TMR3_Initialize                          text2        01405
 _TMR3_InterruptHandler                    nvBANK1      000D7
-_TMR3_SetInterruptHandler                 cinit        00416
-_TMR3_StartTimer                          cinit        0041B
-_TMR3_WriteTimer                          text42       01408
+_TMR3_SetInterruptHandler                 cinit        00423
+_TMR3_StartTimer                          cinit        00428
+_TMR3_WriteTimer                          text42       00AF8
 _TRISA                                    (abs)        0008C
 _TRISB                                    (abs)        0008D
 _TRISC                                    (abs)        0008E
 _TRISCbits                                (abs)        0008E
 _TimerInt                                 text46       009AB
-_UpdateOut_GP1                            text55       01384
-_UpdateOut_GP2                            text54       013A0
-_UpdateOut_GP3                            text53       013BC
+_UpdateOut_GP1                            text55       0127F
+_UpdateOut_GP2                            text54       0129B
+_UpdateOut_GP3                            text53       012B7
 _WDTCON                                   (abs)        00097
-_WDT_Initialize                           text2        014D1
+_WDT_Initialize                           text2        013EC
 _WPUA                                     (abs)        0020C
 _WPUB                                     (abs)        0020D
 _WPUBbits                                 (abs)        0020D
@@ -694,7 +689,7 @@ __Hbank9                                  bank9        00000
 __Hbigram                                 bigram       00000
 __HbssBANK0                               bssBANK0     00000
 __HbssBANK1                               bssBANK1     00000
-__Hcinit                                  cinit        0041E
+__Hcinit                                  cinit        0042B
 __Hclrtext                                clrtext      00000
 __Hcode                                   code         00000
 __Hcommon                                 common       00000
@@ -876,94 +871,94 @@ ___latbits                                (abs)        00002
 ___sp                                     stack        00000
 ___stackhi                                (abs)        023EF
 ___stacklo                                (abs)        0208B
-___wmul                                   cinit        00367
+___wmul                                   cinit        003E6
 ___wmul@multiplicand                      cstackBANK1  000C9
 ___wmul@multiplier                        cstackBANK1  000C7
 ___wmul@product                           cstackBANK1  000CB
-__end_of_ADC_GetConversion                cinit        00200
-__end_of_ADC_Initialize                   cinit        00208
+__end_of_ADC_GetConversion                cinit        00201
+__end_of_ADC_Initialize                   cinit        00209
 __end_of_CLC1_ISR                         text73       0150E
-__end_of_CLC1_Initialize                  text2        014EA
-__end_of_CLC2_ISR                         text73       0150A
-__end_of_CLC2_Initialize                  text2        01462
+__end_of_CLC1_Initialize                  text2        01405
+__end_of_CLC2_ISR                         text73       01504
+__end_of_CLC2_Initialize                  text2        0137D
 __end_of_CLC_1_Interrupt                  text73       01597
 __end_of_CLC_2_Interrupt                  text73       01621
 __end_of_ClearInterrupt                   cinit        00068
-__end_of_Config_GP1                       text51       00D49
-__end_of_Config_GP2                       text51       00EDB
-__end_of_Config_GP3                       text51       00F53
+__end_of_Config_GP1                       text51       00D3A
+__end_of_Config_GP2                       text51       00F41
+__end_of_Config_GP3                       text51       00FB9
 __end_of_DataInitSet                      cinit        00098
 __end_of_FADE_GP1                         cinit        000C1
-__end_of_FADE_GP2                         cinit        0025C
-__end_of_FADE_GP3                         cinit        00232
-__end_of_FadeProcessClear                 cinit        00385
-__end_of_FadeProcessSet                   cinit        0038A
+__end_of_FADE_GP2                         cinit        0025D
+__end_of_FADE_GP3                         cinit        00233
+__end_of_FadeProcessClear                 cinit        00404
+__end_of_FadeProcessSet                   cinit        00409
 __end_of_GP1_FSM                          cinit        00131
 __end_of_GP2_FSM                          cinit        001CB
 __end_of_GP3_FSM                          cinit        0017E
 __end_of_GP_Ports_FSM                     cinit        000E6
-__end_of_GeneralDataSet                   text51       00F9F
+__end_of_GeneralDataSet                   text57       0132E
 __end_of_GeneralDataSplit                 text51       01000
-__end_of_I2C1_AddressSet                  text2        01468
-__end_of_I2C1_ISR                         text47       00B4B
-__end_of_I2C1_Initialize                  text2        0147B
-__end_of_I2C1_Initialize_ClockStreach     text51       00FB3
-__end_of_I2C1_StatusCallback              text47       00B8D
+__end_of_I2C1_AddressSet                  text2        01383
+__end_of_I2C1_ISR                         text47       00B3C
+__end_of_I2C1_Initialize                  text2        01396
+__end_of_I2C1_Initialize_ClockStreach     text57       01342
+__end_of_I2C1_StatusCallback              text47       00B7E
 __end_of_INTERRUPT_InterruptManager       intentry     00030
-__end_of_Int2StatusClear                  text47       00B97
-__end_of_Int2StatusUpdate                 cinit        001D4
-__end_of_NavKeyStatusUpdate               cinit        003F5
+__end_of_Int2StatusClear                  text47       00B88
+__end_of_Int2StatusUpdate                 cinit        001D5
+__end_of_NavKeyStatusUpdate               text15       014FA
 __end_of_NavKeySwitch_KeyFilter           text20       00A00
-__end_of_NavKey_CentralButton_FSM         cinit        003ED
-__end_of_NavKey_DWButton_FSM              cinit        00416
-__end_of_NavKey_FSM                       cinit        003A0
-__end_of_NavKey_LTButton_FSM              text17       0143A
-__end_of_NavKey_RTButton_FSM              text16       00B2A
-__end_of_NavKey_UPButton_FSM              text15       00B07
-__end_of_OSCILLATOR_Initialize            text2        01484
-__end_of_PIN_MANAGER_Initialize           text2        014BB
-__end_of_PMD_Initialize                   text2        014C9
-__end_of_PWM1_Initialize                  text51       00E6F
-__end_of_PWM2_Initialize                  text51       00EE7
-__end_of_PWM3_Initialize                  text51       00F60
-__end_of_PWM_GP1                          cinit        00367
-__end_of_PWM_GP2                          cinit        0030E
-__end_of_PWM_GP3                          cinit        002B5
-__end_of_RegisterRead                     text47       00C06
-__end_of_RegisterWrite                    text51       00CDD
-__end_of_SYSTEM_Initialize                text2        0144D
-__end_of_SetInterrupt                     cinit        001E5
-__end_of_StatusClear                      text47       00B91
-__end_of_TMR2_Initialize                  text2        014D1
-__end_of_TMR3_CallBack                    text42       01408
+__end_of_NavKey_CentralButton_FSM         text15       014F2
+__end_of_NavKey_DWButton_FSM              text15       014A5
+__end_of_NavKey_FSM                       cinit        00423
+__end_of_NavKey_LTButton_FSM              text15       01484
+__end_of_NavKey_RTButton_FSM              text15       01463
+__end_of_NavKey_UPButton_FSM              text15       01442
+__end_of_OSCILLATOR_Initialize            text2        0139F
+__end_of_PIN_MANAGER_Initialize           text2        013D6
+__end_of_PMD_Initialize                   text2        013E4
+__end_of_PWM1_Initialize                  text51       00ED5
+__end_of_PWM2_Initialize                  text51       00F4D
+__end_of_PWM3_Initialize                  text51       00FC6
+__end_of_PWM_GP1                          cinit        003E6
+__end_of_PWM_GP2                          cinit        00363
+__end_of_PWM_GP3                          cinit        002E0
+__end_of_RegisterRead                     text47       00BF7
+__end_of_RegisterWrite                    text51       00CCE
+__end_of_SYSTEM_Initialize                text2        01368
+__end_of_SetInterrupt                     cinit        001E6
+__end_of_StatusClear                      text47       00B82
+__end_of_TMR2_Initialize                  text2        013EC
+__end_of_TMR3_CallBack                    text42       00AF8
 __end_of_TMR3_DefaultInterruptHandler     text45       00004
-__end_of_TMR3_ISR                         text42       013FD
-__end_of_TMR3_Initialize                  text2        01506
-__end_of_TMR3_SetInterruptHandler         cinit        0041B
-__end_of_TMR3_StartTimer                  cinit        0041E
-__end_of_TMR3_WriteTimer                  text42       01417
+__end_of_TMR3_ISR                         text42       00AED
+__end_of_TMR3_Initialize                  text2        01421
+__end_of_TMR3_SetInterruptHandler         cinit        00428
+__end_of_TMR3_StartTimer                  cinit        0042B
+__end_of_TMR3_WriteTimer                  text42       00B07
 __end_of_TimerInt                         text46       009AE
-__end_of_UpdateOut_GP1                    text55       013A0
-__end_of_UpdateOut_GP2                    text54       013BC
-__end_of_UpdateOut_GP3                    text53       013D8
-__end_of_WDT_Initialize                   text2        014D5
+__end_of_UpdateOut_GP1                    text55       0129B
+__end_of_UpdateOut_GP2                    text54       012B7
+__end_of_UpdateOut_GP3                    text53       012D3
+__end_of_WDT_Initialize                   text2        013F0
 __end_of___fladd                          text73       017D7
 __end_of___flge                           text73       01688
 __end_of___flsub                          text73       01800
-__end_of___wmul                           cinit        0037C
+__end_of___wmul                           cinit        003FB
 __end_of__initialization                  cinit        00044
-__end_of_eeprom_read                      text47       00C15
-__end_of_eeprom_write                     text52       013F4
-__end_of_gamma_table                      stringtext1  00996
+__end_of_eeprom_read                      text47       00C06
+__end_of_eeprom_write                     text52       012EF
+__end_of_gamma_table                      stringtext1  009A3
 __end_of_main                             cinit        00065
-__end_ofi1_ClearInterrupt                 text47       00B94
-__end_ofi1_I2C1_Initialize                text51       00FC6
+__end_ofi1_ClearInterrupt                 text47       00B85
+__end_ofi1_I2C1_Initialize                text57       01355
 __end_ofi1_NavKeyStatusUpdate             text73       01626
-__end_ofi1_PWM_GP1                        text51       00E4E
-__end_ofi1_PWM_GP2                        text51       00DF7
-__end_ofi1_PWM_GP3                        text51       00DA0
+__end_ofi1_PWM_GP1                        text51       00EB4
+__end_ofi1_PWM_GP2                        text51       00E36
+__end_ofi1_PWM_GP3                        text51       00DB8
 __end_ofi1_SetInterrupt                   text73       017E3
-__end_ofi1___wmul                         text51       00E63
+__end_ofi1___wmul                         text51       00EC9
 __initialization                          cinit        00032
 __pbssBANK0                               bssBANK0     00020
 __pbssBANK1                               bssBANK1     000A0
@@ -976,97 +971,97 @@ __pintentry                               intentry     00004
 __pmaintext                               cinit        00047
 __pnvBANK0                                nvBANK0      0005E
 __pnvBANK1                                nvBANK1      000D7
-__pstringtext1                            stringtext1  0041E
-__pswtext1                                swtext1      00996
+__pstringtext1                            stringtext1  0042B
+__pswtext1                                swtext1      00B07
 __pswtext10                               swtext10     00A00
-__pswtext2                                swtext2      009A2
-__pswtext3                                swtext3      01044
-__pswtext4                                swtext4      0104C
-__pswtext5                                swtext5      01054
+__pswtext2                                swtext2      009A3
+__pswtext3                                swtext3      00B13
+__pswtext4                                swtext4      01044
+__pswtext5                                swtext5      0104C
 __pswtext6                                swtext6      01000
-__pswtext7                                swtext7      0105C
-__pswtext8                                swtext8      01064
-__pswtext9                                swtext9      0106C
-__ptext1                                  cinit        0041B
-__ptext10                                 text2        01468
-__ptext11                                 text2        01462
-__ptext12                                 text2        0144D
-__ptext13                                 text2        014D5
-__ptext14                                 cinit        0038A
-__ptext15                                 text15       00AE4
-__ptext16                                 text16       00B07
-__ptext17                                 text17       01417
-__ptext18                                 cinit        003F5
-__ptext19                                 cinit        003A0
-__ptext2                                  text2        0143A
+__pswtext7                                swtext7      01054
+__pswtext8                                swtext8      0105C
+__pswtext9                                swtext9      01064
+__ptext1                                  cinit        00428
+__ptext10                                 text2        01383
+__ptext11                                 text2        0137D
+__ptext12                                 text2        01368
+__ptext13                                 text2        013F0
+__ptext14                                 cinit        00409
+__ptext15                                 text15       01421
+__ptext16                                 text15       01442
+__ptext17                                 text15       01463
+__ptext18                                 text15       01484
+__ptext19                                 text15       014A5
+__ptext2                                  text2        01355
 __ptext20                                 text20       009AE
 __ptext21                                 cinit        000C1
 __ptext22                                 cinit        00131
 __ptext23                                 cinit        0017E
 __ptext24                                 cinit        000E6
-__ptext25                                 cinit        00200
-__ptext26                                 cinit        001E5
-__ptext27                                 cinit        00208
-__ptext28                                 cinit        0025C
-__ptext29                                 cinit        00232
-__ptext3                                  text2        014D1
-__ptext30                                 cinit        002B5
+__ptext25                                 cinit        00201
+__ptext26                                 cinit        001E6
+__ptext27                                 cinit        00209
+__ptext28                                 cinit        0025D
+__ptext29                                 cinit        00233
+__ptext3                                  text2        013EC
+__ptext30                                 cinit        002E0
 __ptext31                                 cinit        00098
-__ptext32                                 cinit        0030E
-__ptext33                                 cinit        00367
-__ptext34                                 cinit        00385
-__ptext35                                 cinit        0037C
-__ptext36                                 cinit        001D4
+__ptext32                                 cinit        00363
+__ptext33                                 cinit        003E6
+__ptext34                                 cinit        00404
+__ptext35                                 cinit        003FB
+__ptext36                                 cinit        001D5
 __ptext37                                 cinit        001CB
-__ptext38                                 cinit        003ED
+__ptext38                                 text15       014F2
 __ptext39                                 cinit        00068
-__ptext4                                  text2        014EA
+__ptext4                                  text2        01405
 __ptext40                                 cinit        00065
-__ptext42                                 text42       013F4
-__ptext43                                 text42       01408
-__ptext44                                 text42       013FD
+__ptext42                                 text42       00AE4
+__ptext43                                 text42       00AF8
+__ptext44                                 text42       00AED
 __ptext45                                 text45       00003
 __ptext46                                 text46       009AB
-__ptext47                                 text47       00B30
-__ptext48                                 text47       00B4B
-__ptext49                                 text47       00B91
-__ptext5                                  cinit        00416
-__ptext50                                 text47       00B8D
-__ptext51                                 text51       00C15
-__ptext52                                 text52       013D8
-__ptext53                                 text53       013BC
-__ptext54                                 text54       013A0
-__ptext55                                 text55       01384
+__ptext47                                 text47       00B21
+__ptext48                                 text47       00B3C
+__ptext49                                 text47       00B82
+__ptext5                                  cinit        00423
+__ptext50                                 text47       00B7E
+__ptext51                                 text51       00C06
+__ptext52                                 text52       012D3
+__ptext53                                 text53       012B7
+__ptext54                                 text54       0129B
+__ptext55                                 text55       0127F
 __ptext56                                 text51       00FC6
-__ptext57                                 text51       00F60
-__ptext58                                 text51       00FB3
-__ptext59                                 text51       00F9F
-__ptext6                                  text2        014C9
-__ptext60                                 text51       00EE7
-__ptext61                                 text51       00D49
-__ptext62                                 text51       00F53
-__ptext63                                 text51       00E6F
-__ptext64                                 text51       00DA0
-__ptext65                                 text51       00EDB
-__ptext66                                 text51       00CDD
-__ptext67                                 text51       00DF7
-__ptext68                                 text51       00E4E
-__ptext69                                 text51       00E63
-__ptext7                                  text2        014BB
-__ptext70                                 text47       00B97
-__ptext71                                 text47       00C06
-__ptext72                                 text47       00B94
-__ptext73                                 text73       01506
-__ptext74                                 text73       01597
-__ptext75                                 text73       017E3
-__ptext76                                 text73       0150A
+__ptext57                                 text57       012EF
+__ptext58                                 text57       01342
+__ptext59                                 text57       0132E
+__ptext6                                  text2        013E4
+__ptext60                                 text51       00F4D
+__ptext61                                 text51       00D3A
+__ptext62                                 text51       00FB9
+__ptext63                                 text51       00ED5
+__ptext64                                 text51       00DB8
+__ptext65                                 text51       00F41
+__ptext66                                 text51       00CCE
+__ptext67                                 text51       00E36
+__ptext68                                 text51       00EB4
+__ptext69                                 text51       00EC9
+__ptext7                                  text2        013D6
+__ptext70                                 text47       00B88
+__ptext71                                 text47       00BF7
+__ptext72                                 text47       00B85
+__ptext73                                 text73       014FA
+__ptext74                                 text73       01504
+__ptext75                                 text73       01597
+__ptext76                                 text73       017E3
 __ptext77                                 text73       0150E
 __ptext78                                 text73       017D7
 __ptext79                                 text73       01621
-__ptext8                                  text2        01484
+__ptext8                                  text2        0139F
 __ptext80                                 text73       01626
 __ptext81                                 text73       01688
-__ptext9                                  text2        0147B
+__ptext9                                  text2        01396
 __size_of_ADC_GetConversion               (abs)        00000
 __size_of_ADC_Initialize                  (abs)        00000
 __size_of_CLC1_ISR                        (abs)        00000
@@ -1150,12 +1145,12 @@ __size_ofi1_PWM_GP3                       (abs)        00000
 __size_ofi1_SetInterrupt                  (abs)        00000
 __size_ofi1___wmul                        (abs)        00000
 _double_push_cnt                          bssBANK1     000B1
-_eeprom_read                              text47       00C06
-_eeprom_write                             text52       013D8
+_eeprom_read                              text47       00BF7
+_eeprom_write                             text52       012D3
 _en_deb                                   bssBANK1     000AF
 _en_prev                                  bssBANK1     000B9
 _fsm_tmr                                  bssBANK1     000C6
-_gamma_table                              stringtext1  0041E
+_gamma_table                              stringtext1  0042B
 _gp1_fsm                                  bssBANK1     000BD
 _gp2_fsm                                  bssBANK1     000BC
 _gp3_fsm                                  bssBANK1     000BB
@@ -1172,7 +1167,7 @@ _temp_gp2                                 bssBANK0     00036
 _temp_gp3                                 bssBANK0     00035
 _timer3ReloadVal                          nvBANK1      000D9
 btemp                                     (abs)        0007E
-clear_ram0                                clrtext      00B2A
+clear_ram0                                clrtext      00B1B
 eeprom_read@addr                          cstackCOMMON 00070
 eeprom_write@addr                         cstackCOMMON 00071
 eeprom_write@value                        cstackCOMMON 00070
@@ -1181,14 +1176,14 @@ i1NavKeyStatusUpdate@stat                 cstackCOMMON 00070
 i1PWM_GP1@duty                            cstackBANK0  0004A
 i1PWM_GP2@duty                            cstackBANK0  0004A
 i1PWM_GP3@duty                            cstackBANK0  0004A
-i1_ClearInterrupt                         text47       00B91
-i1_I2C1_Initialize                        text51       00FB3
+i1_ClearInterrupt                         text47       00B82
+i1_I2C1_Initialize                        text57       01342
 i1_NavKeyStatusUpdate                     text73       01621
-i1_PWM_GP1                                text51       00DF7
-i1_PWM_GP2                                text51       00DA0
-i1_PWM_GP3                                text51       00D49
+i1_PWM_GP1                                text51       00E36
+i1_PWM_GP2                                text51       00DB8
+i1_PWM_GP3                                text51       00D3A
 i1_SetInterrupt                           text73       017D7
-i1___wmul                                 text51       00E4E
+i1___wmul                                 text51       00EB4
 i1___wmul@multiplicand                    cstackCOMMON 00072
 i1___wmul@multiplier                      cstackCOMMON 00070
 i1___wmul@product                         cstackCOMMON 00074
@@ -1585,7 +1580,7 @@ Total ram usage:        0 bytes
 
  *************** function _CLC2_Initialize *****************
  Defined at:
-		line 58 in file "mcc_generated_files/clc2.c"
+		line 59 in file "mcc_generated_files/clc2.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1615,7 +1610,7 @@ Total ram usage:        0 bytes
 
  *************** function _CLC1_Initialize *****************
  Defined at:
-		line 58 in file "mcc_generated_files/clc1.c"
+		line 59 in file "mcc_generated_files/clc1.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1645,7 +1640,7 @@ Total ram usage:        0 bytes
 
  *************** function _NavKey_FSM *****************
  Defined at:
-		line 325 in file "NavKey.c"
+		line 324 in file "NavKey.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1680,7 +1675,7 @@ Total ram usage:        0 bytes
 
  *************** function _NavKey_UPButton_FSM *****************
  Defined at:
-		line 202 in file "NavKey.c"
+		line 201 in file "NavKey.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1711,7 +1706,7 @@ Total ram usage:        0 bytes
 
  *************** function _NavKey_RTButton_FSM *****************
  Defined at:
-		line 264 in file "NavKey.c"
+		line 263 in file "NavKey.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1742,7 +1737,7 @@ Total ram usage:        0 bytes
 
  *************** function _NavKey_LTButton_FSM *****************
  Defined at:
-		line 295 in file "NavKey.c"
+		line 294 in file "NavKey.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1773,7 +1768,7 @@ Total ram usage:        0 bytes
 
  *************** function _NavKey_DWButton_FSM *****************
  Defined at:
-		line 233 in file "NavKey.c"
+		line 232 in file "NavKey.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1804,7 +1799,7 @@ Total ram usage:        0 bytes
 
  *************** function _NavKey_CentralButton_FSM *****************
  Defined at:
-		line 136 in file "NavKey.c"
+		line 135 in file "NavKey.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1835,7 +1830,7 @@ Total ram usage:        0 bytes
 
  *************** function _NavKeySwitch_KeyFilter *****************
  Defined at:
-		line 108 in file "NavKey.c"
+		line 107 in file "NavKey.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1865,7 +1860,7 @@ Total ram usage:        1 bytes
 
  *************** function _GP_Ports_FSM *****************
  Defined at:
-		line 488 in file "GPports.c"
+		line 489 in file "GPports.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1900,7 +1895,7 @@ Total ram usage:        1 bytes
 
  *************** function _GP3_FSM *****************
  Defined at:
-		line 443 in file "GPports.c"
+		line 444 in file "GPports.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1933,7 +1928,7 @@ Total ram usage:        2 bytes
 
  *************** function _GP2_FSM *****************
  Defined at:
-		line 394 in file "GPports.c"
+		line 395 in file "GPports.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1966,7 +1961,7 @@ Total ram usage:        2 bytes
 
  *************** function _GP1_FSM *****************
  Defined at:
-		line 349 in file "GPports.c"
+		line 350 in file "GPports.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2095,7 +2090,7 @@ Total ram usage:        0 bytes
 
  *************** function _PWM_GP3 *****************
  Defined at:
-		line 70 in file "PWM.c"
+		line 90 in file "PWM.c"
  Parameters:    Size  Location     Type
   duty            1    wreg     unsigned char 
  Auto vars:     Size  Location     Type
@@ -2157,7 +2152,7 @@ Total ram usage:        0 bytes
 
  *************** function _PWM_GP2 *****************
  Defined at:
-		line 52 in file "PWM.c"
+		line 61 in file "PWM.c"
  Parameters:    Size  Location     Type
   duty            1    wreg     unsigned char 
  Auto vars:     Size  Location     Type
@@ -2219,7 +2214,7 @@ Total ram usage:        0 bytes
 
  *************** function _PWM_GP1 *****************
  Defined at:
-		line 31 in file "PWM.c"
+		line 30 in file "PWM.c"
  Parameters:    Size  Location     Type
   duty            1    wreg     unsigned char 
  Auto vars:     Size  Location     Type
@@ -2890,7 +2885,7 @@ Total ram usage:        2 bytes
 
  *************** function _UpdateOut_GP3 *****************
  Defined at:
-		line 329 in file "GPports.c"
+		line 330 in file "GPports.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2920,7 +2915,7 @@ Total ram usage:        1 bytes
 
  *************** function _UpdateOut_GP2 *****************
  Defined at:
-		line 308 in file "GPports.c"
+		line 309 in file "GPports.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2950,7 +2945,7 @@ Total ram usage:        1 bytes
 
  *************** function _UpdateOut_GP1 *****************
  Defined at:
-		line 288 in file "GPports.c"
+		line 289 in file "GPports.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -3098,7 +3093,7 @@ Total ram usage:        0 bytes
 
  *************** function _Config_GP3 *****************
  Defined at:
-		line 239 in file "GPports.c"
+		line 240 in file "GPports.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -3129,7 +3124,7 @@ Total ram usage:        2 bytes
 
  *************** function i1_PWM_GP3 *****************
  Defined at:
-		line 70 in file "PWM.c"
+		line 90 in file "PWM.c"
  Parameters:    Size  Location     Type
   duty            1    wreg     unsigned char 
  Auto vars:     Size  Location     Type
@@ -3189,7 +3184,7 @@ Total ram usage:        0 bytes
 
  *************** function _Config_GP2 *****************
  Defined at:
-		line 188 in file "GPports.c"
+		line 189 in file "GPports.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -3220,7 +3215,7 @@ Total ram usage:        2 bytes
 
  *************** function i1_PWM_GP2 *****************
  Defined at:
-		line 52 in file "PWM.c"
+		line 61 in file "PWM.c"
  Parameters:    Size  Location     Type
   duty            1    wreg     unsigned char 
  Auto vars:     Size  Location     Type
@@ -3311,7 +3306,7 @@ Total ram usage:        2 bytes
 
  *************** function i1_PWM_GP1 *****************
  Defined at:
-		line 31 in file "PWM.c"
+		line 30 in file "PWM.c"
  Parameters:    Size  Location     Type
   duty            1    wreg     unsigned char 
  Auto vars:     Size  Location     Type
@@ -3515,6 +3510,38 @@ Total ram usage:        0 bytes
  Hardware stack levels used:    1
  Hardware stack levels required when called:    3
  This function calls:
+		_CLC_1_Interrupt
+		_CLC_2_Interrupt
+ This function is called by:
+		_INTERRUPT_InterruptManager
+ This function uses a non-reentrant model
+
+
+ *************** function _CLC1_ISR *****************
+ Defined at:
+		line 89 in file "mcc_generated_files/clc1.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_CLC_1_Interrupt
 		_CLC_2_Interrupt
  This function is called by:
 		_INTERRUPT_InterruptManager
@@ -3551,6 +3578,7 @@ Total ram usage:        4 bytes
 		i1_SetInterrupt
  This function is called by:
 		_CLC2_ISR
+		_CLC1_ISR
  This function uses a non-reentrant model
 
 
@@ -3585,36 +3613,6 @@ Total ram usage:        8 bytes
  This function uses a non-reentrant model
 
 
- *************** function _CLC1_ISR *****************
- Defined at:
-		line 89 in file "mcc_generated_files/clc1.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-                  1    wreg      void 
- Registers used:
-		wreg, status,2, status,0, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        0 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    2
- This function calls:
-		_CLC_1_Interrupt
- This function is called by:
-		_INTERRUPT_InterruptManager
- This function uses a non-reentrant model
-
-
  *************** function _CLC_1_Interrupt *****************
  Defined at:
 		line 24 in file "NavKey.c"
@@ -3644,6 +3642,7 @@ Total ram usage:        4 bytes
 		i1_NavKeyStatusUpdate
 		i1_SetInterrupt
  This function is called by:
+		_CLC2_ISR
 		_CLC1_ISR
  This function uses a non-reentrant model
 
@@ -3778,16 +3777,16 @@ MODULE INFORMATION
 
 Module		Function		Class		Link	Load	Size
 DataVariable.c
-		_NavKeyStatusUpdate		CODE           	03ED	0000	9
-		_FadeProcessClear		CODE           	037C	0000	10
-		_StatusClear   		CODE           	0B8D	0000	5
-		_FadeProcessSet		CODE           	0385	0000	6
-		_Int2StatusUpdate		CODE           	01CB	0000	10
+		_NavKeyStatusUpdate		CODE           	14F2	0000	9
+		_FadeProcessClear		CODE           	03FB	0000	10
+		_StatusClear   		CODE           	0B7E	0000	5
+		_FadeProcessSet		CODE           	0404	0000	6
+		_Int2StatusUpdate		CODE           	01CB	0000	11
 		_GeneralDataSplit		CODE           	0FC6	0000	59
 		_DataInitSet   		CODE           	0068	0000	49
-		_Int2StatusClear		CODE           	0B94	0000	4
+		_Int2StatusClear		CODE           	0B85	0000	4
 
-DataVariable.c estimated size: 152
+DataVariable.c estimated size: 153
 
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
 		___flsub       		CODE           	17E3	0000	30
@@ -3796,7 +3795,7 @@ C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c estimated size: 366
 
 mcc_generated_files/tmr2.c
-		_TMR2_Initialize		CODE           	14C9	0000	9
+		_TMR2_Initialize		CODE           	13E4	0000	9
 
 mcc_generated_files/tmr2.c estimated size: 9
 
@@ -3806,65 +3805,65 @@ mcc_generated_files/interrupt_manager.c
 mcc_generated_files/interrupt_manager.c estimated size: 45
 
 mcc_generated_files/pwm2.c
-		_PWM2_Initialize		CODE           	0EDB	0000	13
+		_PWM2_Initialize		CODE           	0F41	0000	13
 
 mcc_generated_files/pwm2.c estimated size: 13
 
 mcc_generated_files/i2c1.c
-		_I2C1_Initialize_ClockStreach		CODE           	0F9F	0000	21
-		_I2C1_ISR      		CODE           	0B30	0000	28
-		_I2C1_Initialize		CODE           	1468	0000	20
+		_I2C1_Initialize_ClockStreach		CODE           	132E	0000	21
+		_I2C1_ISR      		CODE           	0B21	0000	28
+		_I2C1_Initialize		CODE           	1383	0000	20
 
 mcc_generated_files/i2c1.c estimated size: 69
 
 mcc_generated_files/pin_manager.c
-		_PIN_MANAGER_Initialize		CODE           	1484	0000	56
+		_PIN_MANAGER_Initialize		CODE           	139F	0000	56
 
 mcc_generated_files/pin_manager.c estimated size: 56
 
 i2c_register.c
-		_I2C1_AddressSet		CODE           	1462	0000	7
-		_I2C1_StatusCallback		CODE           	0B4B	0000	67
-		_RegisterRead  		CODE           	0B97	0000	112
-		_RegisterWrite 		CODE           	0C15	0000	201
-		_GeneralDataSet		CODE           	0F60	0000	64
+		_I2C1_AddressSet		CODE           	137D	0000	7
+		_I2C1_StatusCallback		CODE           	0B3C	0000	67
+		_RegisterRead  		CODE           	0B88	0000	112
+		_RegisterWrite 		CODE           	0C06	0000	201
+		_GeneralDataSet		CODE           	12EF	0000	64
 
 i2c_register.c estimated size: 451
 
 NavKey.c
 		_CLC_1_Interrupt		CODE           	150E	0000	138
-		_NavKey_CentralButton_FSM		CODE           	03A0	0000	78
+		_NavKey_CentralButton_FSM		CODE           	14A5	0000	78
 		_CLC_2_Interrupt		CODE           	1597	0000	139
-		_NavKey_DWButton_FSM		CODE           	03F5	0000	34
-		_NavKey_LTButton_FSM		CODE           	1417	0000	36
-		_NavKey_UPButton_FSM		CODE           	0AE4	0000	36
-		_NavKey_RTButton_FSM		CODE           	0B07	0000	36
-		_NavKey_FSM    		CODE           	038A	0000	23
+		_NavKey_DWButton_FSM		CODE           	1484	0000	34
+		_NavKey_LTButton_FSM		CODE           	1463	0000	34
+		_NavKey_UPButton_FSM		CODE           	1421	0000	34
+		_NavKey_RTButton_FSM		CODE           	1442	0000	34
+		_NavKey_FSM    		CODE           	0409	0000	27
 		_NavKeySwitch_KeyFilter		CODE           	09AE	0000	83
 
-NavKey.c estimated size: 603
+NavKey.c estimated size: 601
 
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
-		___wmul        		CODE           	0367	0000	22
+		___wmul        		CODE           	03E6	0000	22
 
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c estimated size: 22
 
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeread.c
-		_eeprom_read   		CODE           	0C06	0000	16
+		_eeprom_read   		CODE           	0BF7	0000	16
 
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeread.c estimated size: 16
 
 mcc_generated_files/adc.c
-		_ADC_Initialize		CODE           	0200	0000	9
-		_ADC_GetConversion		CODE           	01E5	0000	28
+		_ADC_Initialize		CODE           	0201	0000	9
+		_ADC_GetConversion		CODE           	01E6	0000	28
 
 mcc_generated_files/adc.c estimated size: 37
 
 mcc_generated_files/clc2.c
-		_CLC2_ISR      		CODE           	1506	0000	5
-		_CLC2_Initialize		CODE           	144D	0000	22
+		_CLC2_ISR      		CODE           	14FA	0000	11
+		_CLC2_Initialize		CODE           	1368	0000	22
 
-mcc_generated_files/clc2.c estimated size: 27
+mcc_generated_files/clc2.c estimated size: 33
 
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
 		___flge        		CODE           	1626	0000	99
@@ -3872,88 +3871,88 @@ C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c estimated size: 99
 
 PWM.c
-		_PWM_GP3       		CODE           	025C	0000	90
-		_PWM_GP2       		CODE           	02B5	0000	90
-		_PWM_GP1       		CODE           	030E	0000	90
+		_PWM_GP3       		CODE           	025D	0000	132
+		_PWM_GP2       		CODE           	02E0	0000	132
+		_PWM_GP1       		CODE           	0363	0000	132
 
-PWM.c estimated size: 270
+PWM.c estimated size: 396
 
 shared
-		i1_I2C1_Initialize		CODE           	0FB3	0000	20
-		i1_ClearInterrupt		CODE           	0B91	0000	4
-		i1_PWM_GP1     		CODE           	0DF7	0000	88
-		i1_PWM_GP2     		CODE           	0DA0	0000	88
-		i1_PWM_GP3     		CODE           	0D49	0000	88
-		i1___wmul      		CODE           	0E4E	0000	22
+		i1_I2C1_Initialize		CODE           	1342	0000	20
+		i1_ClearInterrupt		CODE           	0B82	0000	4
+		i1_PWM_GP1     		CODE           	0E36	0000	127
+		i1_PWM_GP2     		CODE           	0DB8	0000	127
+		i1_PWM_GP3     		CODE           	0D3A	0000	127
+		i1___wmul      		CODE           	0EB4	0000	22
 		__initialization		CODE           	0032	0000	19
-		_gamma_table   		STRCODE        	041E	0000	1401
+		_gamma_table   		STRCODE        	042B	0000	1401
 		i1_NavKeyStatusUpdate		CODE           	1621	0000	6
 		i1_SetInterrupt		CODE           	17D7	0000	13
 
-shared estimated size: 1749
+shared estimated size: 1866
 
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eewrite.c
-		_eeprom_write  		CODE           	13D8	0000	29
+		_eeprom_write  		CODE           	12D3	0000	29
 
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eewrite.c estimated size: 29
 
 mcc_generated_files/mcc.c
-		_WDT_Initialize		CODE           	14D1	0000	5
-		_PMD_Initialize		CODE           	14BB	0000	15
-		_OSCILLATOR_Initialize		CODE           	147B	0000	10
-		_SYSTEM_Initialize		CODE           	143A	0000	20
+		_WDT_Initialize		CODE           	13EC	0000	5
+		_PMD_Initialize		CODE           	13D6	0000	15
+		_OSCILLATOR_Initialize		CODE           	1396	0000	10
+		_SYSTEM_Initialize		CODE           	1355	0000	20
 
 mcc_generated_files/mcc.c estimated size: 50
 
 mcc_generated_files/tmr3.c
-		_TMR3_ISR      		CODE           	13F4	0000	10
-		_TMR3_Initialize		CODE           	14EA	0000	29
-		_TMR3_SetInterruptHandler		CODE           	0416	0000	6
+		_TMR3_ISR      		CODE           	0AE4	0000	10
+		_TMR3_Initialize		CODE           	1405	0000	29
+		_TMR3_SetInterruptHandler		CODE           	0423	0000	6
 		_TMR3_DefaultInterruptHandler		CODE           	0003	0000	2
-		_TMR3_CallBack 		CODE           	13FD	0000	12
-		_TMR3_WriteTimer		CODE           	1408	0000	16
-		_TMR3_StartTimer		CODE           	041B	0000	4
+		_TMR3_CallBack 		CODE           	0AED	0000	12
+		_TMR3_WriteTimer		CODE           	0AF8	0000	16
+		_TMR3_StartTimer		CODE           	0428	0000	4
 
 mcc_generated_files/tmr3.c estimated size: 79
 
 mcc_generated_files/pwm3.c
-		_PWM3_Initialize		CODE           	0F53	0000	14
+		_PWM3_Initialize		CODE           	0FB9	0000	14
 
 mcc_generated_files/pwm3.c estimated size: 14
 
 mcc_generated_files/pwm1.c
-		_PWM1_Initialize		CODE           	0E63	0000	13
+		_PWM1_Initialize		CODE           	0EC9	0000	13
 
 mcc_generated_files/pwm1.c estimated size: 13
 
 main.c
 		_main          		CODE           	0047	0000	31
 		_ClearInterrupt		CODE           	0065	0000	4
-		_SetInterrupt  		CODE           	01D4	0000	18
+		_SetInterrupt  		CODE           	01D5	0000	18
 		_TimerInt      		CODE           	09AB	0000	4
 
 main.c estimated size: 57
 
 GPports.c
-		_UpdateOut_GP1 		CODE           	1384	0000	29
-		_UpdateOut_GP2 		CODE           	13A0	0000	29
-		_UpdateOut_GP3 		CODE           	13BC	0000	29
+		_UpdateOut_GP1 		CODE           	127F	0000	29
+		_UpdateOut_GP2 		CODE           	129B	0000	29
+		_UpdateOut_GP3 		CODE           	12B7	0000	29
 		_GP1_FSM       		CODE           	00E6	0000	76
 		_GP2_FSM       		CODE           	017E	0000	78
 		_GP3_FSM       		CODE           	0131	0000	78
-		_Config_GP1    		CODE           	0CDD	0000	109
-		_Config_GP2    		CODE           	0E6F	0000	109
-		_Config_GP3    		CODE           	0EE7	0000	109
+		_Config_GP1    		CODE           	0CCE	0000	109
+		_Config_GP2    		CODE           	0ED5	0000	109
+		_Config_GP3    		CODE           	0F4D	0000	109
 		_GP_Ports_FSM  		CODE           	00C1	0000	38
 		_FADE_GP1      		CODE           	0098	0000	42
-		_FADE_GP2      		CODE           	0232	0000	43
-		_FADE_GP3      		CODE           	0208	0000	43
+		_FADE_GP2      		CODE           	0233	0000	43
+		_FADE_GP3      		CODE           	0209	0000	43
 
 GPports.c estimated size: 812
 
 mcc_generated_files/clc1.c
-		_CLC1_ISR      		CODE           	150A	0000	5
-		_CLC1_Initialize		CODE           	14D5	0000	22
+		_CLC1_ISR      		CODE           	1504	0000	11
+		_CLC1_Initialize		CODE           	13F0	0000	22
 
-mcc_generated_files/clc1.c estimated size: 27
+mcc_generated_files/clc1.c estimated size: 33
 

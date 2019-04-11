@@ -1,62 +1,62 @@
- /**
-   CLC1 Generated Driver File
+/**
+  CLC1 Generated Driver File
  
-   @Company
-     Microchip Technology Inc.
+  @Company
+    Microchip Technology Inc.
  
-   @File Name
-     clc1.c
+  @File Name
+    clc1.c
  
-   @Summary
-     This is the generated driver implementation file for the CLC1 driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs
+  @Summary
+    This is the generated driver implementation file for the CLC1 driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs
  
-   @Description
-     This source file provides implementations for driver APIs for CLC1.
-     Generation Information :
-         Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.65.2
-         Device            :  PIC16F18345
-         Driver Version    :  2.01
-     The generated drivers are tested against the following:
-         Compiler          :  XC8 1.45 or later
-         MPLAB             :  MPLAB X 4.15
- */ 
+  @Description
+    This source file provides implementations for driver APIs for CLC1.
+    Generation Information :
+        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.65.2
+        Device            :  PIC16F18345
+        Driver Version    :  2.01
+    The generated drivers are tested against the following:
+        Compiler          :  XC8 1.45 or later
+        MPLAB             :  MPLAB X 4.15
+ */
 
- /*
-    (c) 2018 Microchip Technology Inc. and its subsidiaries. 
+/*
+   (c) 2018 Microchip Technology Inc. and its subsidiaries. 
     
-    Subject to your compliance with these terms, you may use Microchip software and any 
-    derivatives exclusively with Microchip products. It is your responsibility to comply with third party 
-    license terms applicable to your use of third party software (including open source software) that 
-    may accompany Microchip software.
+   Subject to your compliance with these terms, you may use Microchip software and any 
+   derivatives exclusively with Microchip products. It is your responsibility to comply with third party 
+   license terms applicable to your use of third party software (including open source software) that 
+   may accompany Microchip software.
     
-    THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER 
-    EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY 
-    IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS 
-    FOR A PARTICULAR PURPOSE.
+   THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER 
+   EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY 
+   IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS 
+   FOR A PARTICULAR PURPOSE.
     
-    IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
-    INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND 
-    WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP 
-    HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO 
-    THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL 
-    CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT 
-    OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
-    SOFTWARE.
-*/
- 
- /**
-   Section: Included Files
+   IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
+   INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND 
+   WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP 
+   HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO 
+   THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL 
+   CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT 
+   OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
+   SOFTWARE.
+ */
+
+/**
+  Section: Included Files
  */
 
 #include <xc.h>
 #include "clc1.h"
 #include "mcc.h"
+
 /**
   Section: CLC1 APIs
-*/
+ */
 
-void CLC1_Initialize(void)
-{
+void CLC1_Initialize(void) {
     // Set the CLC1 to the options selected in the User Interface
 
     // LC1G1POL not_inverted; LC1G2POL not_inverted; LC1G3POL inverted; LC1G4POL not_inverted; LC1POL not_inverted; 
@@ -86,17 +86,18 @@ void CLC1_Initialize(void)
     PIE3bits.CLC1IE = 1;
 }
 
-void CLC1_ISR(void)
-{
-    CLC_1_Interrupt();
+void CLC1_ISR(void) {
+    if (PORTCbits.RC4 == 0 && (PORTCbits.RC5 == 0))
+        CLC_2_Interrupt();
+    else
+        CLC_1_Interrupt();
     // Clear the CLC interrupt flag
     PIR3bits.CLC1IF = 0;
 }
 
-bool CLC1_OutputStatusGet(void)
-{
-    return(CLC1CONbits.LC1OUT);
+bool CLC1_OutputStatusGet(void) {
+    return (CLC1CONbits.LC1OUT);
 }
 /**
  End of File
-*/
+ */

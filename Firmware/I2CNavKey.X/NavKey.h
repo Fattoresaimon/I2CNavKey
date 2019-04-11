@@ -8,7 +8,7 @@
 extern "C" {
 #endif /* __cplusplus */
 
-#define ENC_DEBOUNCE 50
+#define ENC_DEBOUNCE 10
 #define PB_DEBOUNCE 5
 #define PB_PRESSED false // logic of the button is negated
 #define PB_RELEASED true    

@@ -92,7 +92,6 @@ void CLC_2_Interrupt(void) {
             if (C_WRAPE == true) {
                 CVAL.fval = CMAX.fval;
             } else {
-
                 CVAL.fval = CMIN.fval;
             }
         }
