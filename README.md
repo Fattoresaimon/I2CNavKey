@@ -36,6 +36,11 @@ This project is avaiable on our [Tindie store!](https://www.tindie.com/products/
 
 
 
+## Licensing
+
+Hardware and firmware are licensed under GPL-3 license
+Documentation is licensed under a Creative Commons BY-SA 4.0 international license
+
 **If you want to donate for my work, i would really appreciate it. You can donate here with this link. Thank you!**
 
 [![donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5DX7BCX7JD5SL)
