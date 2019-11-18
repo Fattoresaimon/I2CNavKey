@@ -3,14 +3,14 @@
 [d edition pro ]
 [d chip 16F18345 ]
 [d frameptr 6 ]
-"137 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+"137 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
 [e E6739 . `uc
 I2C1_SLAVE_WRITE_REQUEST 0
 I2C1_SLAVE_READ_REQUEST 1
 I2C1_SLAVE_WRITE_COMPLETED 2
 I2C1_SLAVE_READ_COMPLETED 3
 ]
-"87 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+"87 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
 [e E6505 . `uc
 A_GP1 18
 A_GP2 17
@@ -20,7 +20,7 @@ channel_Temp 61
 channel_DAC1 62
 channel_FVR 63
 ]
-"102 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+"102 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
 [e E68 . `ui
 S_UPR 1
 S_UPP 2
@@ -55,7 +55,7 @@ F_FGP1 1
 F_FGP2 2
 F_FGP3 4
 ]
-"67 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+"67 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
 [e E68 . `uc
 I2C1_SLAVE_WRITE_REQUEST 0
 I2C1_SLAVE_READ_REQUEST 1
@@ -107,7 +107,7 @@ REG_IDCODE 112
 REG_FWVER 113
 REG_EEPROMS 128
 ]
-"16 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+"16 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\GPports.c
 [e E6804 . `uc
 GP_CHECKMODE 0
 GP_ADC_MODE 1
@@ -140,7 +140,7 @@ E_GP3POS 16
 E_GP3NEG 32
 E_GPFADE 64
 ]
-"10 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+"10 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\NavKey.c
 [e E6760 . `uc
 NavKey_WAITPUSH 0
 NavKey_WAITRELEASE 1
@@ -187,7 +187,7 @@ S_INT2 -32768
 [v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
 "6 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eewrite.c
 [v _eeprom_write eeprom_write `(v  1 e 1 0 ]
-"54 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+"54 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
 [v _DataInitSet DataInitSet `(v  1 e 1 0 ]
 "86
 [v _GeneralDataSplit GeneralDataSplit `(v  1 e 1 0 ]
@@ -204,7 +204,7 @@ S_INT2 -32768
 [v _FadeProcessSet FadeProcessSet `(v  1 e 1 0 ]
 "141
 [v _FadeProcessClear FadeProcessClear `(v  1 e 1 0 ]
-"26 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+"26 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\GPports.c
 [v _FADE_GP1 FADE_GP1 `(v  1 e 1 0 ]
 "63
 [v _FADE_GP2 FADE_GP2 `(v  1 e 1 0 ]
@@ -230,7 +230,7 @@ S_INT2 -32768
 [v _GP3_FSM GP3_FSM `(v  1 e 1 0 ]
 "489
 [v _GP_Ports_FSM GP_Ports_FSM `(v  1 e 1 0 ]
-"20 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+"20 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
 [v _I2C1_AddressSet I2C1_AddressSet `(v  1 e 1 0 ]
 "67
 [v _I2C1_StatusCallback I2C1_StatusCallback `(v  1 e 1 0 ]
@@ -240,7 +240,7 @@ S_INT2 -32768
 [v _RegisterRead RegisterRead `(uc  1 e 1 0 ]
 "449
 [v _GeneralDataSet GeneralDataSet `(v  1 e 1 0 ]
-"56 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+"56 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\main.c
 [v _SetInterrupt SetInterrupt `(v  1 e 1 0 ]
 [v i1_SetInterrupt SetInterrupt `(v  1 e 1 0 ]
 "66
@@ -250,28 +250,28 @@ S_INT2 -32768
 [v _TimerInt TimerInt `(v  1 e 1 0 ]
 "80
 [v _main main `(v  1 e 1 0 ]
-"65 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+"65 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
 [v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
 "113
 [v _ADC_GetConversion ADC_GetConversion `(ui  1 e 2 0 ]
-"59 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+"59 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
 [v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
 "89
 [v _CLC1_ISR CLC1_ISR `(v  1 e 1 0 ]
-"59 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+"59 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
 [v _CLC2_Initialize CLC2_Initialize `(v  1 e 1 0 ]
 "89
 [v _CLC2_ISR CLC2_ISR `(v  1 e 1 0 ]
-"75 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+"75 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
 [v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
 [v i1_I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
 "100
 [v _I2C1_Initialize_ClockStreach I2C1_Initialize_ClockStreach `(v  1 e 1 0 ]
 "125
 [v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
-"52 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+"52 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
-"50 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+"50 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "66
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
@@ -279,17 +279,17 @@ S_INT2 -32768
 [v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
 "86
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
-"57 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+"57 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"64 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm1.c
+"64 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm1.c
 [v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
-"64 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm2.c
+"64 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm2.c
 [v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
-"64 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm3.c
+"64 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm3.c
 [v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
-"62 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr2.c
+"62 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
-"64 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+"64 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
 [v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
 "93
 [v _TMR3_StartTimer TMR3_StartTimer `(v  1 e 1 0 ]
@@ -303,7 +303,7 @@ S_INT2 -32768
 [v _TMR3_SetInterruptHandler TMR3_SetInterruptHandler `(v  1 e 1 0 ]
 "182
 [v _TMR3_DefaultInterruptHandler TMR3_DefaultInterruptHandler `(v  1 e 1 0 ]
-"24 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+"24 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\NavKey.c
 [v _CLC_1_Interrupt CLC_1_Interrupt `(v  1 e 1 0 ]
 "66
 [v _CLC_2_Interrupt CLC_2_Interrupt `(v  1 e 1 0 ]
@@ -321,7 +321,7 @@ S_INT2 -32768
 [v _NavKey_LTButton_FSM NavKey_LTButton_FSM `(v  1 e 1 0 ]
 "324
 [v _NavKey_FSM NavKey_FSM `(v  1 e 1 0 ]
-"30 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+"30 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\PWM.c
 [v _PWM_GP1 PWM_GP1 `(v  1 e 1 0 ]
 [v i1_PWM_GP1 PWM_GP1 `(v  1 e 1 0 ]
 "61
@@ -898,7 +898,7 @@ S_INT2 -32768
 [v _CLC2GLS2 CLC2GLS2 `VEuc  1 e 1 @3874 ]
 "17205
 [v _CLC2GLS3 CLC2GLS3 `VEuc  1 e 1 @3875 ]
-"8 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+"8 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
 [v _i2c_address i2c_address `VEuc  1 e 1 0 ]
 "14
 [v _GCONF GCONF `VEuc  1 e 1 0 ]
@@ -952,7 +952,7 @@ S_INT2 -32768
 [v _C_DTYPE C_DTYPE `VEuc  1 e 1 0 ]
 "52
 [v _DoublePush DoublePush `VEui  1 e 2 0 ]
-"11 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+"11 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\GPports.c
 [v _gp_timer gp_timer `uc  1 e 1 0 ]
 "12
 [v _temp_gp1 temp_gp1 `uc  1 e 1 0 ]
@@ -968,21 +968,21 @@ S_INT2 -32768
 [v _gp3_fsm gp3_fsm `uc  1 e 1 0 ]
 "20
 [v _gp_fade_cnt gp_fade_cnt `uc  1 e 1 0 ]
-"12 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+"12 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
 [v _EncoderReg EncoderReg `VEuc  1 e 1 0 ]
 "13
 [v _intclear intclear `VEuc  1 e 1 0 ]
 "14
 [v _int2clear int2clear `VEuc  1 e 1 0 ]
-"51 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+"51 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\main.c
 [v _fsm_tmr fsm_tmr `uc  1 e 1 0 ]
-"59 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+"59 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
 [v _I2C1_slaveWriteData I2C1_slaveWriteData `VEuc  1 e 1 0 ]
-"57 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+"57 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
 [v _timer3ReloadVal timer3ReloadVal `VEui  1 e 2 0 ]
 "58
 [v _TMR3_InterruptHandler TMR3_InterruptHandler `*.37(v  1 e 2 0 ]
-"10 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+"10 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\NavKey.c
 [v _pb_fsm pb_fsm `uc  1 e 1 0 ]
 "11
 [v _pb_cnt pb_cnt `[5]c  1 e 5 0 ]
@@ -996,19 +996,19 @@ S_INT2 -32768
 [v _en_deb en_deb `ui  1 e 2 0 ]
 "17
 [v _en_prev en_prev `uc  1 e 1 0 ]
-"17 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+"17 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\PWM.c
 [v _gamma_table gamma_table `DC[7][100]ui  1 e 1400 0 ]
-"80 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+"80 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
 "117
 } 0
-"93 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+"93 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
 [v _TMR3_StartTimer TMR3_StartTimer `(v  1 e 1 0 ]
 {
 "97
 } 0
-"50 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+"50 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "64
@@ -1018,7 +1018,7 @@ S_INT2 -32768
 {
 "84
 } 0
-"64 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+"64 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
 [v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
 {
 "91
@@ -1029,47 +1029,47 @@ S_INT2 -32768
 [v TMR3_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "180
 } 0
-"62 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr2.c
+"62 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 {
 "77
 } 0
-"86 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+"86 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
 {
 "100
 } 0
-"57 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
+"57 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "107
 } 0
-"66 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
+"66 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "78
 } 0
-"75 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+"75 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
 [v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
 {
 "98
 } 0
-"20 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+"20 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
 [v _I2C1_AddressSet I2C1_AddressSet `(v  1 e 1 0 ]
 {
 "61
 } 0
-"59 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+"59 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
 [v _CLC2_Initialize CLC2_Initialize `(v  1 e 1 0 ]
 {
 "87
 } 0
-"59 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+"59 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
 [v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
 {
 "87
 } 0
-"324 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+"324 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\NavKey.c
 [v _NavKey_FSM NavKey_FSM `(v  1 e 1 0 ]
 {
 "337
@@ -1114,7 +1114,7 @@ S_INT2 -32768
 [v NavKeySwitch_KeyFilter@i i `uc  1 a 1 0 ]
 "129
 } 0
-"489 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+"489 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\GPports.c
 [v _GP_Ports_FSM GP_Ports_FSM `(v  1 e 1 0 ]
 {
 "509
@@ -1134,7 +1134,7 @@ S_INT2 -32768
 {
 "390
 } 0
-"65 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
+"65 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/adc.c
 [v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
 {
 "84
@@ -1148,12 +1148,12 @@ S_INT2 -32768
 [v ADC_GetConversion@channel channel `E6505  1 a 1 3 ]
 "134
 } 0
-"101 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+"101 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\GPports.c
 [v _FADE_GP3 FADE_GP3 `(v  1 e 1 0 ]
 {
 "133
 } 0
-"90 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+"90 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\PWM.c
 [v _PWM_GP3 PWM_GP3 `(v  1 e 1 0 ]
 {
 [v PWM_GP3@duty duty `uc  1 a 1 wreg ]
@@ -1162,12 +1162,12 @@ S_INT2 -32768
 [v PWM_GP3@duty duty `uc  1 a 1 14 ]
 "114
 } 0
-"63 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+"63 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\GPports.c
 [v _FADE_GP2 FADE_GP2 `(v  1 e 1 0 ]
 {
 "95
 } 0
-"61 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+"61 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\PWM.c
 [v _PWM_GP2 PWM_GP2 `(v  1 e 1 0 ]
 {
 [v PWM_GP2@duty duty `uc  1 a 1 wreg ]
@@ -1176,12 +1176,12 @@ S_INT2 -32768
 [v PWM_GP2@duty duty `uc  1 a 1 14 ]
 "85
 } 0
-"26 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+"26 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\GPports.c
 [v _FADE_GP1 FADE_GP1 `(v  1 e 1 0 ]
 {
 "58
 } 0
-"30 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+"30 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\PWM.c
 [v _PWM_GP1 PWM_GP1 `(v  1 e 1 0 ]
 {
 [v PWM_GP1@duty duty `uc  1 a 1 wreg ]
@@ -1200,7 +1200,7 @@ S_INT2 -32768
 [v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
 "53
 } 0
-"133 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+"133 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
 [v _FadeProcessSet FadeProcessSet `(v  1 e 1 0 ]
 {
 [v FadeProcessSet@stat stat `E95  1 a 1 wreg ]
@@ -1216,12 +1216,12 @@ S_INT2 -32768
 [v FadeProcessClear@stat stat `E95  1 a 1 3 ]
 "146
 } 0
-"56 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+"56 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\main.c
 [v _SetInterrupt SetInterrupt `(v  1 e 1 0 ]
 {
 "61
 } 0
-"110 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+"110 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
 [v _Int2StatusUpdate Int2StatusUpdate `(v  1 e 1 0 ]
 {
 [v Int2StatusUpdate@stat stat `E86  1 a 1 wreg ]
@@ -1240,17 +1240,17 @@ S_INT2 -32768
 {
 "81
 } 0
-"66 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+"66 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\main.c
 [v _ClearInterrupt ClearInterrupt `(v  1 e 1 0 ]
 {
 "68
 } 0
-"52 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
+"52 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
 {
 "82
 } 0
-"157 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
+"157 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/tmr3.c
 [v _TMR3_ISR TMR3_ISR `(v  1 e 1 0 ]
 {
 "167
@@ -1271,19 +1271,19 @@ S_INT2 -32768
 {
 "185
 } 0
-"73 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+"73 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\main.c
 [v _TimerInt TimerInt `(v  1 e 1 0 ]
 {
 "75
 } 0
-"125 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+"125 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
 [v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
 {
 "126
 [v I2C1_ISR@i2c_data i2c_data `uc  1 a 1 6 ]
 "156
 } 0
-"67 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+"67 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
 [v _I2C1_StatusCallback I2C1_StatusCallback `(v  1 e 1 0 ]
 {
 [v I2C1_StatusCallback@i2c_bus_state i2c_bus_state `E68  1 a 1 wreg ]
@@ -1294,17 +1294,17 @@ S_INT2 -32768
 [v I2C1_StatusCallback@i2c_bus_state i2c_bus_state `E68  1 a 1 5 ]
 "119
 } 0
-"66 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+"66 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\main.c
 [v i1_ClearInterrupt ClearInterrupt `(v  1 e 1 0 ]
 {
 "68
 } 0
-"118 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+"118 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
 [v _StatusClear StatusClear `(v  1 e 1 0 ]
 {
 "120
 } 0
-"126 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+"126 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
 [v _RegisterWrite RegisterWrite `(v  1 e 1 0 ]
 {
 [v RegisterWrite@add add `uc  1 a 1 wreg ]
@@ -1322,7 +1322,7 @@ S_INT2 -32768
 [v eeprom_write@addr addr `uc  1 a 1 1 ]
 "9
 } 0
-"330 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+"330 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\GPports.c
 [v _UpdateOut_GP3 UpdateOut_GP3 `(v  1 e 1 0 ]
 {
 "345
@@ -1337,17 +1337,17 @@ S_INT2 -32768
 {
 "304
 } 0
-"86 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+"86 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
 [v _GeneralDataSplit GeneralDataSplit `(v  1 e 1 0 ]
 {
 "96
 } 0
-"449 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+"449 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
 [v _GeneralDataSet GeneralDataSet `(v  1 e 1 0 ]
 {
 "482
 } 0
-"75 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
+"75 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/i2c1.c
 [v i1_I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
 {
 "98
@@ -1357,12 +1357,12 @@ S_INT2 -32768
 {
 "123
 } 0
-"240 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+"240 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\GPports.c
 [v _Config_GP3 Config_GP3 `(v  1 e 1 0 ]
 {
 "284
 } 0
-"90 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+"90 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\PWM.c
 [v i1_PWM_GP3 PWM_GP3 `(v  1 e 1 0 ]
 {
 [v i1PWM_GP3@duty duty `uc  1 a 1 wreg ]
@@ -1371,17 +1371,17 @@ S_INT2 -32768
 [v i1PWM_GP3@duty duty `uc  1 a 1 0 ]
 "114
 } 0
-"64 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm3.c
+"64 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm3.c
 [v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
 {
 "80
 } 0
-"189 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+"189 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\GPports.c
 [v _Config_GP2 Config_GP2 `(v  1 e 1 0 ]
 {
 "235
 } 0
-"61 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+"61 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\PWM.c
 [v i1_PWM_GP2 PWM_GP2 `(v  1 e 1 0 ]
 {
 [v i1PWM_GP2@duty duty `uc  1 a 1 wreg ]
@@ -1390,17 +1390,17 @@ S_INT2 -32768
 [v i1PWM_GP2@duty duty `uc  1 a 1 0 ]
 "85
 } 0
-"64 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm2.c
+"64 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm2.c
 [v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
 {
 "80
 } 0
-"138 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\GPports.c
+"138 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\GPports.c
 [v _Config_GP1 Config_GP1 `(v  1 e 1 0 ]
 {
 "184
 } 0
-"30 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\PWM.c
+"30 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\PWM.c
 [v i1_PWM_GP1 PWM_GP1 `(v  1 e 1 0 ]
 {
 [v i1PWM_GP1@duty duty `uc  1 a 1 wreg ]
@@ -1417,12 +1417,12 @@ S_INT2 -32768
 [v i1___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
 "53
 } 0
-"64 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm1.c
+"64 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/pwm1.c
 [v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
 {
 "80
 } 0
-"288 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
+"288 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\i2c_register.c
 [v _RegisterRead RegisterRead `(uc  1 e 1 0 ]
 {
 [v RegisterRead@add add `uc  1 a 1 wreg ]
@@ -1442,22 +1442,22 @@ S_INT2 -32768
 [v eeprom_read@addr addr `uc  1 a 1 0 ]
 "19
 } 0
-"125 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+"125 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
 [v _Int2StatusClear Int2StatusClear `(v  1 e 1 0 ]
 {
 "127
 } 0
-"89 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
+"89 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc2.c
 [v _CLC2_ISR CLC2_ISR `(v  1 e 1 0 ]
 {
 "96
 } 0
-"89 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
+"89 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\mcc_generated_files/clc1.c
 [v _CLC1_ISR CLC1_ISR `(v  1 e 1 0 ]
 {
 "96
 } 0
-"66 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+"66 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\NavKey.c
 [v _CLC_2_Interrupt CLC_2_Interrupt `(v  1 e 1 0 ]
 {
 "101
@@ -1469,17 +1469,17 @@ S_INT2 -32768
 [v ___flsub@b b `d  1 p 4 12 ]
 "250
 } 0
-"24 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\NavKey.c
+"24 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\NavKey.c
 [v _CLC_1_Interrupt CLC_1_Interrupt `(v  1 e 1 0 ]
 {
 "60
 } 0
-"56 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\main.c
+"56 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\main.c
 [v i1_SetInterrupt SetInterrupt `(v  1 e 1 0 ]
 {
 "61
 } 0
-"102 C:\Users\scaron\SVN\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
+"102 D:\Users\Saimon\Documents\Git\I2CNavKey\FW\I2CNavKey.X\DataVariable.c
 [v i1_NavKeyStatusUpdate NavKeyStatusUpdate `(v  1 e 1 0 ]
 {
 [v i1NavKeyStatusUpdate@stat stat `E68  1 p 2 0 ]

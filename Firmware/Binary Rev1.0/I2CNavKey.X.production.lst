@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.05 build -831301201 
-                                                                                               Thu Apr 11 16:56:51 2019
+                                                                                               Sun Nov 17 19:24:25 2019
 
 Microchip MPLAB XC8 C Compiler v2.05 (Pro license) build 20181220022703 Og9f 
      1                           	processor	16F18345
@@ -15335,8 +15335,8 @@ Microchip MPLAB XC8 C Compiler v2.05 (Pro license) build 20181220022703 Og9f
  15054                           ;i2c_register.c: 425: break;
  15055                           
  15056                           
- 15057                           ;i2c_register.c: 428: return_value = 0x11;
- 15058  0AEA  3011               	movlw	17
+ 15057                           ;i2c_register.c: 428: return_value = 0x12;
+ 15058  0AEA  3012               	movlw	18
  15059  0AEB                     L43:	
  15060  0AEB  00F2               	movwf	RegisterRead@return_value
  15061                           
@@ -20633,7 +20633,7 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.05 build -831301201 
-Symbol Table                                                                                   Thu Apr 11 16:56:51 2019
+Symbol Table                                                                                   Sun Nov 17 19:24:25 2019
 
                    ??_NavKey_RTButton_FSM 00CD                                         pc 0002  
                              __CFG_CP$OFF 0000                       ___wmul@multiplicand 00CD  

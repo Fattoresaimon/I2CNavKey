@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v2.05\pic\dat\en_msgs.txt \
   -cs -h+dist/default/production\I2CNavKey.X.production.sym \
   --cmf=dist/default/production\I2CNavKey.X.production.cmf -z -Q16F18345 \
-  -oC:\Users\scaron\AppData\Local\Temp\s1nag.2 --defsym=__MPLAB_BUILD=1 \
+  -oC:\Users\Saimon\AppData\Local\Temp\sels.2 --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/I2CNavKey.X.production.map -E1 -ver=XC8 \
   --acfsm=1493 -ASTACK=0208Bh-023EFh -pstack=STACK -ACODE=00h-07FFhx4 \
   -ASTRCODE=00h-01FFFh -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 \
@@ -32,7 +32,7 @@ Linker command line:
   -pconfig=CONFIG -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 \
   -AEEDATA=00h-0FFh/0F000h -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 \
   -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\Users\scaron\AppData\Local\Temp\s1nag.o \
+  C:\Users\Saimon\AppData\Local\Temp\sels.o \
   dist/default/production\I2CNavKey.X.production.o 
 
 Object code version is 3.11
@@ -42,7 +42,7 @@ Machine type is 16F18345
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\scaron\AppData\Local\Temp\s1nag.o
+C:\Users\Saimon\AppData\Local\Temp\sels.o
                 end_init                             30       30        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        4    1000E       0

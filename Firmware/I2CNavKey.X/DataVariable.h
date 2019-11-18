@@ -12,7 +12,7 @@
 #include <stdbool.h>
 
 #define IDVALUE 0x5B
-#define BOARD_VERSION   0x11
+#define BOARD_VERSION   0x12
 
 
 extern volatile uint8_t i2c_address;
