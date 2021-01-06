@@ -234,11 +234,8 @@ class i2cNavKeyLib:
             self.eventCaller (self.onMin)
             self.eventCaller (self.onMinMax)
 
-<<<<<<< Updated upstream
+
         if (self.stat & INT_2) != 0 :
-=======
-        if (self.stat & INT2) != 0 :
->>>>>>> Stashed changes
             self.stat2 = self.readNavKey8(REG_SSTATUS)
             if (self.stat2 == 0) :
                 return True
